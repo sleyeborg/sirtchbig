@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            padding: 20px;
+        }
+        
+        /* Tomogatchi Theme */
+        .theme-tomogatchi {
+            background-color: #FF69B4;
+            color: white;
+        }
+        
+        .theme-tomogatchi h1 {
+            color: #FFFFFF;
+        }
+        
+        .theme-tomogatchi label {
+            color: #FFC0CB;
+        }
+        
+        /* Standard Theme */
+        .standard {
+            background-color: #FDF5E6;
+            color: #000000;
+        }
+        
+        /* Additional Styles */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        
+        .grid div {
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+        }
+        
+        .grid a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .grid a:hover {
+            color: #FF69B4;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var tomogatchiParam = urlParams.get('tomogatchi');
+            if (tomogatchiParam === 'True') {
+                console.log('fresh');
+                document.body.classList.add('theme-tomogatchi');
+            } else {
+                console.log('stale');
+                document.body.classList.add('standard');
+            }
+        };
+    </script>
+</head>
+<body>
+    <h2>search.py</h2>
+	<span>Root results <ul>reads an array of links from a csv</ul> <ul>scrapes all links from each url in csv into a data cache</ul> <ul>iterates over that cache to return retArr[1]['links']</ul> which will be "csvURL>fromCsvUrlURLs"</span></br>
+    
+    <div class="grid">
+        {% for link in links %}
+            {% if link.startswith('http') %}
+                <div>
+                    <a href='{{ link }}' target="_blank">{{ link }}</a>
+                </div>
+                {% if link2 %}
+                    <div>
+                        <a href='{{ link2 }}' target="_blank">{{ link2 }}</a>
+                    </div>
+                {% endif %}
+                {% if link3 %}
+                    <div>
+                        <a href='{{ link3 }}' target="_blank">{{ link3 }}</a>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+    <br>
+    <h2>SP7IT</h2>
+<span>when iterating over each URL in the csv there is an <ul>if(){for(){if(){this first if statement is where we get the urls on this page above SP7IT}if(){and this second if runs the exact same logic as the if statement to the left of this, only it uses a related word to the user inputQ}}}</ul></span>
+    <br>
+    
+    {% if output %}
+        <div class="grid">
+            {% for item in output %}
+                <div>
+                    <a href='{{ item }}' target="_blank">{{ item }}</a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+<h2>Related Word: {{relWordi}}</h2>
+<button onclick="window.history.back()">Go Back</button>
+</body>
+</html>

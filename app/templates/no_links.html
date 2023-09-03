@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NO MATCHES</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            padding: 20px;
+        }
+        
+        /* Tomogatchi Theme */
+        .theme-tomogatchi {
+            background-color: #FF69B4;
+            color: white;
+        }
+        
+        .theme-tomogatchi p {
+            color: #FFFFFF;
+        }
+        
+        /* Standard Theme */
+        .standard {
+            background-color: #FDF5E6;
+            color: #000000;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var tomogatchiParam = urlParams.get('tomogatchi');
+            if (tomogatchiParam === 'True') {
+                console.log('fresh');
+                document.body.classList.add('theme-tomogatchi');
+            } else {
+                console.log('stale');
+                document.body.classList.add('standard');
+            }
+        };
+    </script>
+</head>
+<body>
+    <p>Hello, there is nothing.</p>
+	<h2>Related Word: {{relWordi}}</h2>
+
+	<button onclick="window.history.back()">Go Back</button>
+</body>
+</html>

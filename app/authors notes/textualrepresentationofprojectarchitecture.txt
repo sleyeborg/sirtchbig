@@ -1,0 +1,12 @@
+"\n
+|-/pycache         \n
+|-/assets          \n
+|-/caches          \n
+|-/templates       \n
+|-/utils           \n
+|-app.py           \n 
+|-index.py         \n 
+|-output_thread.py \n
+|-README.md        \n
+|-search.py        \n
+|-specify.py       \n"

@@ -1,0 +1,1124 @@
+WE MUST CONVERT URLS TO THEIR ORIGINAL FORM. "https://www.amazon.com/Childrens-Books/b%3Fie%3DUTF8%26node%3D4" IS NOT VALID URL BUT https://www.amazon.com/Childrens-Books/b?ie=UTF8&node=4 IS. 
+urls cannot end in &.
+
+
+
+
+
+tagger 0  in tag 1 <script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){
+var k=this||self,l=function(a){var b=typeof a;return"object"==b&&null!=a||"function"==b},m=function(a,b){function c(){}c.prototype=b.prototype;a.j=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.l=function(d,e,f){for(var g=Array(arguments.length-2),h=2;h<arguments.length;h++)g[h-2]=arguments[h];return b.prototype[e].apply(d,g)}};var n=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if("string"===typeof a)return"string"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c in a&&a[c]===b)return c;return-1};var p=function(a){return"string"==typeof a.className?a.className:a.getAttribute&&a.getAttribute("class")||""},q=function(a,b){"string"==typeof a.className?a.className=b:a.setAttribute&&a.setAttribute("class",b)},r=function(a,b){a.classList?b=a.classList.contains(b):(a=a.classList?a.classList:p(a).match(/\S+/g)||[],b=0<=n(a,b));return b},v=function(){var a=t,b=u;a.classList?a.classList.remove(b):r(a,b)&&q(a,Array.prototype.filter.call(a.classList?a.classList:p(a).match(/\S+/g)||[],function(c){return c!=
+b}).join(" "))};function w(){var a=k.navigator;return a&&(a=a.userAgent)?a:""};var x=function(a){x[" "](a);return a};x[" "]=function(){};var y=-1!=w().indexOf("Gecko")&&!(-1!=w().toLowerCase().indexOf("webkit")&&-1==w().indexOf("Edge"))&&!(-1!=w().indexOf("Trident")||-1!=w().indexOf("MSIE"))&&-1==w().indexOf("Edge");var z=function(a,b){this.type=a;this.target=b};z.prototype.g=function(){};var A=function(){if(!k.addEventListener||!Object.defineProperty)return!1;var a=!1,b=Object.defineProperty({},"passive",{get:function(){a=!0}});try{var c=function(){};k.addEventListener("test",c,b);k.removeEventListener("test",c,b)}catch(d){}return a}();var C=function(a){z.call(this,a?a.type:"");this.relatedTarget=this.target=null;this.button=this.screenY=this.screenX=this.clientY=this.clientX=0;this.key="";this.keyCode=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.state=null;this.pointerId=0;this.pointerType="";this.h=null;if(a){var b=this.type=a.type,c=a.changedTouches&&a.changedTouches.length?a.changedTouches[0]:null;this.target=a.target||a.srcElement;var d=a.relatedTarget;if(d){if(y){a:{try{x(d.nodeName);var e=!0;break a}catch(f){}e=
+!1}e||(d=null)}}else"mouseover"==b?d=a.fromElement:"mouseout"==b&&(d=a.toElement);this.relatedTarget=d;c?(this.clientX=void 0!==c.clientX?c.clientX:c.pageX,this.clientY=void 0!==c.clientY?c.clientY:c.pageY,this.screenX=c.screenX||0,this.screenY=c.screenY||0):(this.clientX=void 0!==a.clientX?a.clientX:a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.key=a.key||"";this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.pointerId=a.pointerId||0;this.pointerType="string"===typeof a.pointerType?a.pointerType:B[a.pointerType]||"";this.state=a.state;this.h=a;a.defaultPrevented&&C.j.g.call(this)}};m(C,z);var B={2:"touch",3:"pen",4:"mouse"};C.prototype.g=function(){C.j.g.call(this);var a=this.h;a.preventDefault?a.preventDefault():a.returnValue=!1};var D="closure_listenable_"+(1E6*Math.random()|0);var E=0;var F=function(a,b,c,d,e){this.listener=a;this.proxy=null;this.src=b;this.type=c;this.capture=!!d;this.h=e;this.key=++E;this.g=this.i=!1},G=function(a){a.g=!0;a.listener=null;a.proxy=null;a.src=null;a.h=null};var H=function(a){this.src=a;this.g={};this.h=0};H.prototype.add=function(a,b,c,d,e){var f=a.toString();a=this.g[f];a||(a=this.g[f]=[],this.h++);var g;a:{for(g=0;g<a.length;++g){var h=a[g];if(!h.g&&h.listener==b&&h.capture==!!d&&h.h==e)break a}g=-1}-1<g?(b=a[g],c||(b.i=!1)):(b=new F(b,this.src,f,!!d,e),b.i=c,a.push(b));return b};var I="closure_lm_"+(1E6*Math.random()|0),J={},K=0,M=function(a,b,c,d,e){if(d&&d.once)return L(a,b,c,d,e);if(Array.isArray(b)){for(var f=0;f<b.length;f++)M(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.g(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!1,d,e)},O=function(a,b,c,d,e,f){if(!b)throw Error("a");var g=l(e)?!!e.capture:!!e,h=P(a);h||(a[I]=h=new H(a));c=h.add(b,c,d,g,f);if(c.proxy)return c;d=Q();c.proxy=d;d.src=a;d.listener=c;if(a.addEventListener)A||(e=g),void 0===e&&(e=!1),a.addEventListener(b.toString(),d,e);else if(a.attachEvent)a.attachEvent(R(b.toString()),d);else if(a.addListener&&a.removeListener)a.addListener(d);else throw Error("b");K++;return c},Q=function(){var a=S,b=function(c){return a.call(b.src,b.listener,c)};return b},L=function(a,b,c,d,e){if(Array.isArray(b)){for(var f=0;f<b.length;f++)L(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.h(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!0,d,e)},T=function(a){if("number"!==typeof a&&a&&!a.g){var b=a.src;if(b&&b[D])b.o(a);else{var c=a.type,d=a.proxy;b.removeEventListener?b.removeEventListener(c,d,a.capture):b.detachEvent?b.detachEvent(R(c),d):b.addListener&&b.removeListener&&b.removeListener(d);K--;if(c=P(b)){d=a.type;if(d in c.g){var e=c.g[d],f=n(e,a),g;(g=0<=f)&&Array.prototype.splice.call(e,f,1);g&&(G(a),0==c.g[d].length&&(delete c.g[d],c.h--))}0==c.h&&(c.src=null,b[I]=null)}else G(a)}}},R=function(a){return a in J?J[a]:J[a]="on"+a},S=function(a,b){if(a.g)a=!0;else{b=new C(b,this);var c=a.listener,d=a.h||a.src;a.i&&T(a);a=c.call(d,b)}return a},P=function(a){a=a[I];return a instanceof H?a:null},U="__closure_events_fn_"+(1E9*Math.random()>>>0),N=function(a){if("function"===typeof a)return a;a[U]||(a[U]=function(b){return a.handleEvent(b)});return a[U]};var u,t=document.documentElement,V;function W(){T(V);V=L(t,"mousedown",function(){v();X()},{capture:!0})}function X(){T(V);V=M(t,"keydown",function(a){if(9===a.keyCode){a=t;var b=u;if(a.classList)a.classList.add(b);else if(!r(a,b)){var c=p(a);q(a,c+(0<c.length?" "+b:b))}W()}})};u="zAoYTe";X();}).call(this);</script>
+
+
+
+
+
+
+
+tagger 1  in tag 1 <div class="cOl4Id"><a href="/?sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QOwgC"><span class="V6gwVd">G</span><span class="iWkuvd">o</span><span class="cDrQ7">o</span><span class="V6gwVd">g</span><span class="ntlR9">l</span><span class="iWkuvd tJ3Myc">e</span></a></div>
+
+
+
+
+
+
+
+tagger 2  in tag 1 <div class="bz1lBb"><form class="Pg70bf" id="sf"><input name="ie" type="hidden" value="ISO-8859-1"/><div class="H0PQec"><div class="sbc esbc"><input autocapitalize="none" autocomplete="off" class="noHIxc" name="q" spellcheck="false" type="text" value="site:amazon.com books"/><input name="oq" type="hidden"/><input name="aqs" type="hidden"/><div class="x">×</div><div class="sc"></div></div></div><button id="qdClwb" type="submit"></button></form></div>
+
+
+
+
+
+
+
+tagger 3  in tag 1 <noscript><meta content="0;url=/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ti6HZMHiEISv5NoPguil-AQ" http-equiv="refresh"/><style>table,div,span,p{display:none}</style><div style="display:block">Please click <a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ti6HZMHiEISv5NoPguil-AQ">here</a> if you are not redirected within a few seconds.</div></noscript>
+
+
+
+
+
+
+
+tag:  1 <div id="main"><div><div class="KP7LCb"> <div class="bRsWnc"> <div class="N6RWV"> <div class="Pg70bf Uv67qb"> <span class="OXXup">All</span><a class="eZt8xd" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUIBigB">Books</a><a class="eZt8xd" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUIBygC">Images</a><a class="eZt8xd" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICCgD">Shopping</a> <a href="https://maps.google.com/maps?q=site:amazon.com+books&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICSgE">Maps</a> <a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICigF">Videos</a> <a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICygG">News</a> <div class="FElbsf"><a href="/advanced_search" id="st-toggle" role="button" style="white-space:nowrap">Search tools</a></div> </div> </div> </div> </div><div class="Pg70bf wEsjbd Gx5Zad xpd EtOod pkphOe" id="st-card" style="display:none"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style><div class="Xj2aue"><div class="coPU8c"><div class="RnNGze"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{background:#fff;display:none;position:absolute;border:1px solid #dadce0;box-shadow:0 2px 4px rgba(0,0,0,.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090 transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active .OmTIzf{border-color:#4285f4 transparent}</style><div class="TWMOUc">Any time</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl a{color:#70757a;text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style><li class="yNFsl SkUj4c">Any time</li><li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIDQ">Past hour</a></li><li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIDg">Past 24 hours</a></li><li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIDw">Past week</a></li><li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIEA">Past month</a></li><li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIEQ">Past year</a></li></ul></div><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><div class="TWMOUc">All results</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><li class="yNFsl SkUj4c">All results</li><li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIEw">Verbatim</a></li></ul></div></div></div></div><script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){var a=document.getElementById("st-toggle"),b=document.getElementById("st-card");a&&b&&a.addEventListener("click",function(c){b.style.display=b.style.display?"":"none";c.preventDefault()},!1);}).call(this);</script></div></div><style>.Gx5Zad{background-color:#fff;margin-bottom:30px;box-shadow:0 0 0 1px #dfe1e5;border-radius:8px}.pkphOe{font-size:14px;line-height:22px;}.EtOod>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.EtOod.avPKgf>*:last-child{border-bottom-left-radius:4px}.EtOod>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.fP1Qef{background:transparent !important;box-shadow:none !important;border:none !important}.Gx5Zad.fP1Qef{margin-top:-12px;margin-bottom:18px}.rl7ilb{display:block;clear:both}.egMi0{margin-bottom:-19px}.kCrYT{padding:12px 16px 12px}a.fdYsqf{color:#4b11a8}.sCuL3{position:absolute;width:100%;top:0;left:0;padding-top:1px;margin-bottom:-1px}.j039Wc{padding-top:28px;margin-bottom:-1px}.DnJfK{position:relative}.l97dzf{font-weight:400}.zBAuLc{line-height:normal;margin:0;padding:0}.BNeawe{white-space:pre-line;word-wrap:break-word}.vvjwJb{color:#1a0dab;font-size:20px;line-height:26px}a:visited .vvjwJb,.vvjwJb a:visited{color:#4b11a8}.vvjwJb.HrGdeb{color:#fff}a:visited .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:22px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#202124}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.Ap5OSd{padding-bottom:12px}.s3v9rd{font-size:14px;line-height:22px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.XLloXe{color:#1a0dab;font-size:14px;line-height:20px}a:visited .XLloXe,.XLloXe a:visited{color:#4b11a8}.XLloXe.HrGdeb{color:#fff}a:visited .XLloXe.HrGdeb,.XLloXe.HrGdeb a:visited{color:rgba(255,255,255,.70)}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef span{text-align:center}.EYqSq{margin:6px 4px 9px 0;border-radius:100%;display:inline-block;height:10px;vertical-align:middle;width:10px}.dfB0uf{color:#3c4043;font-weight:bold}</style><div></div>
+<div>
+	<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+		<div class="egMi0 kCrYT">
+		<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAMQAg" href="/url?q=https://www.amazon.com/books-used-books-textbooks/b%3Fie%3DUTF8%26node%3D283155&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAMQAg&amp;usg=AOvVaw0HuN-0f40kJG69MoglI177" jsname="ACyKwe">
+		<div class="DnJfK">
+			<div class="j039Wc">
+			<h3 class="zBAuLc l97dzf">
+			<div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com
+				</div>
+			</h3>
+			</div>
+			<div class="sCuL3">
+				<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › books-used-books-textbooks
+					</div>
+			</div>
+		</div>
+		</a>
+		</div>
+
+		<div class="kCrYT">
+			<div>
+				<div class="BNeawe s3v9rd AP7Wnd">
+					<div>
+						<div class="v9i61e">
+							<div class="BNeawe s3v9rd AP7Wnd">Popular genres. Biographies &amp; Memoirs · Children's Books · Literature &amp; Fiction · Mystery, Thriller &amp; Suspense · Romance · Science Fiction &amp; Fantasy ...
+								</div>
+						</div>
+					<div>
+						<div class="BNeawe s3v9rd AP7Wnd">
+						<span class="BNeawe">
+						<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAU" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D16857165011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAU&amp;usg=AOvVaw3hXR_lLmywsYJcKtdyV4Qm" jsname="ACyKwe">
+							<span class="XLloXe AP7Wnd">Best sellers &amp; more
+								</span>
+						</a>
+						</span> · 
+						<span class="BNeawe">
+						<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAY" href="/url?q=https://www.amazon.com/Childrens-Books/b%3Fie%3DUTF8%26node%3D4&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAY&amp;usg=AOvVaw27v9hMI0hIPP2t5yjMba5F" jsname="ACyKwe">
+						<span class="XLloXe AP7Wnd">Children's Books
+						</span>
+						</a>
+						</span> · 
+
+						<span class="BNeawe">
+						<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAc" href="/url?q=https://www.amazon.com/b%3Fnode%3D154606011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAc&amp;usg=AOvVaw252M06J_WriWbKorR_v9JK" jsname="ACyKwe">
+						<span class="XLloXe AP7Wnd">Kindle Books
+						</span>
+						</a>
+						</span> · 
+						<span class="BNeawe">
+						<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAg" href="/url?q=https://www.amazon.com/Gay-Lesbian-Books/b%3Fie%3DUTF8%26node%3D301889&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAg&amp;usg=AOvVaw2rCgFdL3VQbLIl1w-ZHGh_" jsname="ACyKwe">
+						<span class="XLloXe AP7Wnd">LGBTQ+ Books
+						</span>
+						</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<div>
+	<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+		<div class="egMi0 kCrYT">
+			<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAkQAg" href="/url?q=https://www.amazon.com/Books/s%3Fsrs%3D17143709011%26rh%3Dn%253A283155&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAkQAg&amp;usg=AOvVaw2g5aviMg4wnpnXIx9Z5ZN1" jsname="ACyKwe">
+			<div class="DnJfK">
+				<div class="j039Wc"><h3 class="zBAuLc l97dzf">
+					<div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com
+					</div>	</h3>
+				</div>
+				<div class="sCuL3">
+					<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Books
+						</div>
+				</div>
+			</div>
+			</a>
+		</div>
+		<div class="kCrYT">
+			<div>
+				<div class="BNeawe s3v9rd AP7Wnd">
+					<div>
+						<div>
+							<div class="BNeawe s3v9rd AP7Wnd">Books. Filters (1). Results. Best Seller. Lessons in Chemistry: A Novel ... by Colleen Hoover. Book 2 of 2: It Ends with Us ... Book 1 of 2: The Housemaid.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div>
+<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+	<div class="egMi0 kCrYT">
+		<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAcQAg" href="/url?q=https://www.amazon.com/Best-Sellers-Books/zgbs/books&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAcQAg&amp;usg=AOvVaw3_Mgc3Kojompe7EGQ35mDX" jsname="ACyKwe">
+		<div class="DnJfK"><div class="j039Wc">
+			<h3 class="zBAuLc l97dzf">
+				<div class="BNeawe vvjwJb AP7Wnd">Best Sellers in Books - Amazon.com
+				</div>
+			</h3>
+		</div>
+	<div class="sCuL3">
+		<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Best-Sellers-Books › zgbs › books
+		</div>
+		</div>
+	<	/div>
+		</a>
+	</div>
+	<div class="kCrYT">
+		<div>
+			<div class="BNeawe s3v9rd AP7Wnd">
+				<div>
+					<div>
+						<div class="BNeawe s3v9rd AP7Wnd">Best Sellers in Books ; #1. Lessons in Chemistry: A Novel ; #2. Fourth Wing (The Empyrean, 1) ; #3. Spider-Man: Across the Spider-Verse: The Art of the Movie ; #4.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div>
+	<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+		<div class="egMi0 kCrYT">
+			<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAYQAg" href="/url?q=https://www.amazon.com/Reference-Nonfiction-Childrens-Books/b%3Fie%3DUTF8%26node%3D3176&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAYQAg&amp;usg=AOvVaw2_BVKQAP1P0wqJEWcPtR26" jsname="ACyKwe">
+			<div class="DnJfK">
+				<div class="j039Wc">
+					<h3 class="zBAuLc l97dzf">
+						<div class="BNeawe vvjwJb AP7Wnd">Children's Books: Education &amp; Reference - Amazon.com
+						</div>
+					</h3>
+				</div>
+			<div class="sCuL3">
+				<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Reference-Nonfiction-Childrens-Books
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="kCrYT">
+		<div>
+			<div class="BNeawe s3v9rd AP7Wnd">
+				<div>
+					<div>
+						<div class="BNeawe s3v9rd AP7Wnd">Children's Books: Education &amp; Reference. Get ready for grades K-12 with books for children and parents. Browse: History | Math | Reading &amp; Writing | Science.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div>
+<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+	<div class="egMi0 kCrYT">
+		<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAAQAg" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D17276794011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAAQAg&amp;usg=AOvVaw12UNJC4UVsEyJzsYIrWs2-" jsname="ACyKwe">
+	<div class="DnJfK"><div class="j039Wc">
+	<h3 class="zBAuLc l97dzf">
+		<div class="BNeawe vvjwJb AP7Wnd">Best Books for Children and Teens - Amazon.com</div>
+	</h3>
+	</div>
+	<div class="sCuL3">
+		<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div>
+	</div>
+	</div>
+		</a>
+	</div>
+	<div class="kCrYT">
+		<div>
+			<div class="BNeawe s3v9rd AP7Wnd">
+				<div>
+					<div>
+						<div class="BNeawe s3v9rd AP7Wnd">Best sellers in Award-Winning Children's Books: ; Holes (Holes Series)Holes (Holes Series) Louis Sachar ; Where the Wild Things Are: A Caldecott Award WinnerWhere ...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<div>
+	<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+		<div class="egMi0 kCrYT">
+			<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAIQAg" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D16857165011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAIQAg&amp;usg=AOvVaw2CuXps4x0MiGfz-APoQvsL" jsname="ACyKwe">
+				<div class="DnJfK">
+					<div class="j039Wc">
+						<h3 class="zBAuLc l97dzf">
+							<div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com: Best sellers &amp; more</div>
+						</h3>
+					</div>
+					<div class="sCuL3">
+						<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	<div class="kCrYT">
+		<div>
+			<div class="BNeawe s3v9rd AP7Wnd">
+				<div>
+					<div>
+						<div class="BNeawe s3v9rd AP7Wnd">New &amp; Noteworthy Kindle Books ; Cherish (Crave Book 6)Cherish (Crave Book 6) Tracy Wolff ; Rogue Justice: A Thriller (Avery Keene Book 2)Rogue Justice: A Thriller ...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div>
+	<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+		<div class="egMi0 kCrYT">
+			<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAgQAg" href="/url?q=https://www.amazon.com/Books-Kindle-Edition/s%3Frh%3Dn%253A283155%252Cp_n_feature_browse-bin%253A618073011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAgQAg&amp;usg=AOvVaw2BiyB3aApfjeWAkpIK9Z95" jsname="ACyKwe">
+				<div class="DnJfK">
+					<div class="j039Wc">
+						<h3 class="zBAuLc l97dzf">
+							<div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com: Kindle Edition</div>
+						</h3>
+					</div>
+				<div class="sCuL3">
+				<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Books-Kindle-Edition</div></div></div></a>
+		</div>
+	<div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Fourth Wing (The Empyrean Book 1) · Fourth Wing (The Empyrean Book 1) · Happy Place · Happy Place · The Covenant of Water (Oprah's Book Club) · The Covenant of Water ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAUQAg" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D17276804011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAUQAg&amp;usg=AOvVaw344dmtTxYefTIcvcOeGyXr" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Best Books of the Year @ Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Best kids' books of 2021. Amazon editors' top 100. Holiday gift picks. Celebrity picks ; The Escape Artist · Solito · Take My Hand · Stolen Focus ; Biographies ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAEQAg" href="/url?q=https://www.amazon.com/USA-Books/s%3Fk%3DUSA%26rh%3Dn%253A283155&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAEQAg&amp;usg=AOvVaw14NQPJNgkHXzO12XSBetgl" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">USA: Books - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › USA-Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">A Patriot's History of the United States: From Columbus's Great Discovery to America's Age of Entitlement, Revised Edition. by Larry Schweikart.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAQQAg" href="/url?q=https://www.amazon.com/b%3Fnode%3D154606011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAQQAg&amp;usg=AOvVaw23zkCfJI0_yR0f-xT89zQG" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Customer favorites in Kindle eBooks - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Customer favorites in Kindle eBooks · Dracula (AmazonClassics Edition) · The Atlantis Plague: A Thriller (The Origin Mystery, Book 2) · The Chronicles of Narnia ...</div></div></div></div></div></div></div></div>
+<footer> 
+	<div> 
+		<div class="Gx5Zad xpd EtOod pkphOe BmP5tf">
+			<div class="nMymef MUxGbd lyLwlc">
+				<a aria-label="Next page" class="nBDE1b G5eFlf" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;ei=ti6HZMHiEISv5NoPguil-AQ&amp;start=10&amp;sa=N">Next &gt;
+				</a>
+			</div>
+		</div> 
+	</div> 
+	<div id="EOlPnc"><div class="Srfpq"><div><span class="EYqSq unknown_loc"></span><span class="dfB0uf">Chicago IL, Illinois</span></div><span>From your IP address</span><span> - </span><a aria-label="Learn more about this location" href="/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Qty4IQw&amp;usg=AOvVaw0_glEG1kNm7oAg8uzw1hOi" tabindex="0">Learn more</a></div><div><a href="/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dsite:amazon.com%252Bbooks%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Qxs8CCEQ&amp;usg=AOvVaw2Ljonl7sTYwP4VN8bQwOZq">Sign in</a></div><div><a class="xeDNfc" href="https://www.google.com/preferences?hl=en&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q5fUCCEU">Settings</a><a class="xeDNfc" href="https://policies.google.com/privacy?hl=en&amp;fg=1">Privacy</a><a class="xeDNfc" href="https://policies.google.com/terms?hl=en&amp;fg=1">Terms</a><a class="xeDNfc" href="/setprefs?hl=en&amp;prev=https://www.google.com/search?q%3Dsite:amazon.com%2Bbooks%26pccc%3D1&amp;sig=0_cD5_wvCrbyHWRk-qqktjeOgngMU%3D&amp;cs=2&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QjcAJCEY">Dark theme: Off</a></div></div> 
+</footer>
+	<script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){var hl='en';(function(){
+	var f=this||self,g=function(a){return a};var h,k=function(){if(void 0===h){var a=null,b=f.trustedTypes;if(b&&b.createPolicy){try{a=b.createPolicy("goog#html",	{createHTML:g,createScript:g,createScriptURL:g})}catch(c){f.console&&f.console.error(c.message)}h=a}else h=a}return h};var p=function(a,b)	{this.h=a===l&&b||"";this.g=m},q=function(a){return a instanceof p&&a.constructor===p&&a.g===m?a.h:"type_error:Const"},m={},l={};var r=function(a)	{this.g=a};r.prototype.toString=function(){return this.g+""};var t=function(a){return a instanceof r&&a.constructor===r?	a.g:"type_error:TrustedResourceUrl"},x=function(){var a={},b=q(new p(l,"/complete/search"));if(!u.test(b))throw Error("e`"+b);var c=b.replace(v,function(e,d){if(!	Object.prototype.hasOwnProperty.call(a,d))throw Error("f`"+d+"`"+b+"`"+JSON.stringify(a));e=a[d];return e instanceof p?q(e):encodeURIComponent(String(e))});return 	w(c)},v=/%{(\w+)}/g,u=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),y=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,z=	{},w=function(a){var b=k();a=b?b.createScriptURL(a):a;return new r(a,z)},A=function(a,b,c){if(null==c)return b;if("string"===typeof c)return c?a	+encodeURIComponent(c):"";for(var e in c)if(Object.prototype.hasOwnProperty.call(c,e)){var d=c[e];d=Array.isArray(d)?d:[d];for(var n=0;n<d.length;n++){var O=d	[n];nul	l!=O&&(b||(b=a),b+=(b.length>a.length?"&":"")+encodeURIComponent(e)+"="+encodeURIComponent(String(O)))}}return b};var B={},C=function(a)	{this.g=a};C.prototype.toString=function(){return this.g.toString()};
+	function D(a,b){if(1===a.nodeType){var c=a.tagName;if("SCRIPT"===c||"STYLE"===c)throw Error("g");}a.innerHTML=b instanceof C&&b.constructor===C?	b.g:"type_error:SafeHtml"};function E(a){a=null===a?"null":void 0===a?"undefined":a;var b=k();a=b?b.createHTML(a):a;return new C(a,B)};var 	F=document.querySelector(".l"),G=document.querySelector("#sf"),H=G.querySelector(".sbc"),I=G.querySelector("[type=text]"),J=G.querySelector	("[type=submit]"),K=G.querySelector(".sc"),L=G.querySelector(".x"),M=I.value,N=[],P=-1,Q=M,R,S,T;M||(L&&(L.style.display="none"),U(!1));function U(a){if	(H.classList.contains("esbc")){var b=H.classList.contains("chsbc"),c=H.classList.contains("rtlsbc");a&&(K.style.display="block",b?(G.style.borderRadius="20px 20px 	0 0",K.style.borderBottom="1px solid #DFE1E5",J.style.borderRadius=c?"20px 0 0 0":"0 20px 0 0"):H.style.borderRadius=c?"0 8px 0 0":"8px 0 0 0");a||	(K.style.display="none",b?(G.style.borderRadius="20px",K.style.borderBottom="none",J.style.borderRadius=c?"20px 0 0 20px":"0 20px 20px 	0"):H.style.borderRadius=c?"0 8px 8px 0":"8px 0 0 8px")}}function V(){G.querySelector("[name=oq]").value=Q;G.querySelector("[name=aqs]").value="heirloom-	srp."+(0<=P?P:"")+"."+(0<N.length?"0l"+N.length:"")}
+	function W(){R=null;if(S){var a={client:"heirloom-srp",hl:hl,json:"t",callback:"hS",q:S};"undefined"!==typeof ds&&ds&&(a.ds=ds);var b=document;var 	c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);b=x();b=y.exec(t(b).toString());var e=b[3]||"";a=w(b[1]+A("?",b	[2]||"",a)+A("#",e));c.src=t(a);var d,n;(d=(a=null==(n=(d=(c.ownerDocument&&c.ownerDocument.defaultView||window).document).querySelector)?void 0:n.call(d,"script	[nonce]"))?a.nonce||a.getAttribute("nonce")||
+	"":"")&&c.setAttribute("nonce",d);document.body.appendChild(c);S=null;R=setTimeout(W,500)}}function X(){for(;K.firstChild;)K.removeChild(K.firstChild);N=[];P=-1;U	(!1)}function Y(){var a=K.querySelector(".scs");a&&(a.className="");0<=P?(a=K.childNodes[P],a.className="scs",M=a.textContent):M=Q;I.value=M}I.addEventListener	("focus",function(){F&&(F.style.display="none")},!1);I.addEventListener("blur",function(){X();F&&(F.style.display="")},!1);I.addEventListener("keyup",function(a)	{M=I.value;T=!1;13===a.which?V():27===a.which?(X(),F&&(F.style.display=""),M=Q,I.value=M):40===a.which?(P++,P>=N.length&&(P=-1),Y()):38===a.which?(P--,-1>P&&	(P=N.length-1),Y()):(a=M)?(L&&(L.style.display=""),S=a,R||W(),Q=a):(L&&(L.style.display="none"),U(!1),X(),Q="",T=!0)},!1);J.addEventListener("click",V,!	1);L.addEventListener("click",function(){I.value="";L.style.display="none";U(!1)},!1);H.addEventListener("click",function(){I.focus()},!1);window.hS=function(a)	{if(!T){X();0===a[1].length&&U(!1);for(var b=0;b<a[1].length;b++){var c=a[1][b][0],e=document.createElement("div");D(e,E(c));e.addEventListener	("mousedown",function(d){d.preventDefault();return!1},!1);c=c.replace(/<\/?b>/g,"");e.addEventListener("click",function(d){return function(){P=d;V();Y();X	();G.submit()}}(b),!1);e.addEventListener("mouseover",function(d){return function(){P!==d&&(P=d,Y())}}(b),!1);K.appendChild(e);U(!0);N.push(c)}}};}).call(this);})	();(function(){function b(a){for(a=a.target||a.srcElement;a&&"A"!==a.nodeName;)a=a.parentElement;a&&(a.href||"").match(/\/search.*[?&]tbm=isch/)&&(a.href	+="&biw="+document.documentElement.clientWidth,a.href+="&bih="+document.documentElement.clientHeight)}document.addEventListener("click",b,!	1);document.addEventListener("touchStart",b,!1);}).call(this);
+	</script>
+</div>
+
+
+
+
+
+
+
+
+tagger 4  in tag 2 
+<div>
+	<div class="KP7LCb"> 
+		<div class="bRsWnc"> 
+			<div class="N6RWV"> 
+				<div class="Pg70bf Uv67qb"> 
+					<span class="OXXup">All</span>
+						<a class="eZt8xd" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUIBigB">
+							Books</a>
+						<a class="eZt8xd" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUIBygC">
+							Images</a>
+						<a class="eZt8xd" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICCgD">
+							Shopping</a> 
+						<a href="https://maps.google.com/maps?q=site:amazon.com+books&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICSgE">
+							Maps</a> 
+						<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICigF">
+							Videos</a> 
+						<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q_AUICygG">
+							News</a> 
+						<div class="FElbsf">
+							<a href="/advanced_search" id="st-toggle" role="button" style="white-space:nowrap">Search tools</a>
+						</div> 
+				</div> 
+			</div> 
+		</div> 
+	</div>
+	<div class="Pg70bf wEsjbd Gx5Zad xpd EtOod pkphOe" id="st-card" style="display:none"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style>
+	<div class="Xj2aue"><div class="coPU8c"><div class="RnNGze"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{background:#fff;display:none;position:absolute;border:1px solid #dadce0;box-shadow:0 2px 4px rgba(0,0,0,.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style>
+	<div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090 transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active .OmTIzf{border-color:#4285f4 transparent}</style>
+	<div class="TWMOUc">Any time</div>
+	<span class="OmTIzf"></span>
+	</div>
+	<ul class="sa1toc ozatM"><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl a{color:#70757a;text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style>
+	<li class="yNFsl SkUj4c">Any time</li>
+	<li class="yNFsl">
+		<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIDQ">
+			Past hour</a></li>
+			<li class="yNFsl">
+				<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIDg">
+				Past 24 hours</a></li>
+			<li class="yNFsl">
+				<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIDw">
+				Past week</a></li>
+			<li class="yNFsl">
+				<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIEA">
+					Past month</a></li>
+			<li class="yNFsl">
+				<a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIEQ">
+					Past year</a></li></ul>
+		</div>
+		<div class="PA9J5">
+			<div class="RXaOfd" role="button" tabindex="0"><div class="TWMOUc">All results</div>
+				<span class="OmTIzf"></span></div>
+				<ul class="sa1toc ozatM">
+					<li class="yNFsl SkUj4c">All results</li>
+					<li class="yNFsl"><a href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QpwUIEw">Verbatim</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		</div>
+		<script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){var a=document.getElementById("st-toggle"),b=document.getElementById("st-card");a&&b&&a.addEventListener("click",function(c){b.style.display=b.style.display?"":"none";c.preventDefault()},!1);}).call(this);
+		</script>
+		</div>
+		</div>
+
+
+
+
+
+
+
+tagger 5  in tag 2 <style>.Gx5Zad{background-color:#fff;margin-bottom:30px;box-shadow:0 0 0 1px #dfe1e5;border-radius:8px}.pkphOe{font-size:14px;line-height:22px;}.EtOod>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.EtOod.avPKgf>*:last-child{border-bottom-left-radius:4px}.EtOod>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.fP1Qef{background:transparent !important;box-shadow:none !important;border:none !important}.Gx5Zad.fP1Qef{margin-top:-12px;margin-bottom:18px}.rl7ilb{display:block;clear:both}.egMi0{margin-bottom:-19px}.kCrYT{padding:12px 16px 12px}a.fdYsqf{color:#4b11a8}.sCuL3{position:absolute;width:100%;top:0;left:0;padding-top:1px;margin-bottom:-1px}.j039Wc{padding-top:28px;margin-bottom:-1px}.DnJfK{position:relative}.l97dzf{font-weight:400}.zBAuLc{line-height:normal;margin:0;padding:0}.BNeawe{white-space:pre-line;word-wrap:break-word}.vvjwJb{color:#1a0dab;font-size:20px;line-height:26px}a:visited .vvjwJb,.vvjwJb a:visited{color:#4b11a8}.vvjwJb.HrGdeb{color:#fff}a:visited .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:22px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#202124}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.Ap5OSd{padding-bottom:12px}.s3v9rd{font-size:14px;line-height:22px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.XLloXe{color:#1a0dab;font-size:14px;line-height:20px}a:visited .XLloXe,.XLloXe a:visited{color:#4b11a8}.XLloXe.HrGdeb{color:#fff}a:visited .XLloXe.HrGdeb,.XLloXe.HrGdeb a:visited{color:rgba(255,255,255,.70)}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef span{text-align:center}.EYqSq{margin:6px 4px 9px 0;border-radius:100%;display:inline-block;height:10px;vertical-align:middle;width:10px}.dfB0uf{color:#3c4043;font-weight:bold}</style>
+
+
+
+
+
+
+
+tagger 6  in tag 2 <div></div>
+
+
+
+
+
+
+
+tagger 7  in tag 2 
+	<div>
+		<div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+			<div class="egMi0 kCrYT">
+				<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAMQAg" href="/url?q=https://www.amazon.com/books-used-books-textbooks/b%3Fie%3DUTF8%26node%3D283155&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAMQAg&amp;usg=AOvVaw0HuN-0f40kJG69MoglI177" jsname="ACyKwe">
+				<div class="DnJfK">
+				<div class="j039Wc">
+				<h3 class="zBAuLc l97dzf">
+				<div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com
+				</div>
+				</h3>
+				</div>
+				<div class="sCuL3">
+				<div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › books-used-books-textbooks
+				</div>
+				</div>
+				</div>
+				</a>
+			</div>
+			<div class="kCrYT">
+				<div>
+					<div class="BNeawe s3v9rd AP7Wnd">
+						<div>
+							<div class="v9i61e">
+								<div class="BNeawe s3v9rd AP7Wnd">Popular genres. Biographies &amp; Memoirs · Children's Books · Literature &amp; Fiction · Mystery, Thriller &amp; Suspense · Romance · Science Fiction &amp; Fantasy ...
+								</div>
+								</div>
+								<div>
+									<div class="BNeawe s3v9rd AP7Wnd"><span class="BNeawe">
+									<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAU" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D16857165011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAU&amp;usg=AOvVaw3hXR_lLmywsYJcKtdyV4Qm" jsname="ACyKwe">
+									<span class="XLloXe AP7Wnd">Best sellers &amp; more
+									</span>
+									</a>
+									</span> · 
+									
+									<span class="BNeawe">
+									<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAY" href="/url?q=https://www.amazon.com/Childrens-Books/b%3Fie%3DUTF8%26node%3D4&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAY&amp;usg=AOvVaw27v9hMI0hIPP2t5yjMba5F" jsname="ACyKwe">
+									<span class="XLloXe AP7Wnd">Children's Books
+									</span>
+									</a>
+									</span> · 
+									
+									<span class="BNeawe">
+									<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAc" href="/url?q=https://www.amazon.com/b%3Fnode%3D154606011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAc&amp;usg=AOvVaw252M06J_WriWbKorR_v9JK" jsname="ACyKwe">
+									<span class="XLloXe AP7Wnd">Kindle Books</span>
+									</a>
+									</span> · 
+									
+									<span class="BNeawe">
+									<a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAg" href="/url?q=https://www.amazon.com/Gay-Lesbian-Books/b%3Fie%3DUTF8%26node%3D301889&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q0gJ6BAgDEAg&amp;usg=AOvVaw2rCgFdL3VQbLIl1w-ZHGh_" jsname="ACyKwe">
+									<span class="XLloXe AP7Wnd">LGBTQ+ Books</span>
+									</a>
+									</span><
+									/div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div></div>
+
+
+
+
+
+
+
+tagger 8  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAkQAg" href="/url?q=https://www.amazon.com/Books/s%3Fsrs%3D17143709011%26rh%3Dn%253A283155&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAkQAg&amp;usg=AOvVaw2g5aviMg4wnpnXIx9Z5ZN1" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Books. Filters (1). Results. Best Seller. Lessons in Chemistry: A Novel ... by Colleen Hoover. Book 2 of 2: It Ends with Us ... Book 1 of 2: The Housemaid.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+tagger 9  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAcQAg" href="/url?q=https://www.amazon.com/Best-Sellers-Books/zgbs/books&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAcQAg&amp;usg=AOvVaw3_Mgc3Kojompe7EGQ35mDX" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Best Sellers in Books - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Best-Sellers-Books › zgbs › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Best Sellers in Books ; #1. Lessons in Chemistry: A Novel ; #2. Fourth Wing (The Empyrean, 1) ; #3. Spider-Man: Across the Spider-Verse: The Art of the Movie ; #4.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+tagger 10  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAYQAg" href="/url?q=https://www.amazon.com/Reference-Nonfiction-Childrens-Books/b%3Fie%3DUTF8%26node%3D3176&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAYQAg&amp;usg=AOvVaw2_BVKQAP1P0wqJEWcPtR26" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Children's Books: Education &amp; Reference - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Reference-Nonfiction-Childrens-Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Children's Books: Education &amp; Reference. Get ready for grades K-12 with books for children and parents. Browse: History | Math | Reading &amp; Writing | Science.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+tagger 11  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAAQAg" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D17276794011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAAQAg&amp;usg=AOvVaw12UNJC4UVsEyJzsYIrWs2-" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Best Books for Children and Teens - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Best sellers in Award-Winning Children's Books: ; Holes (Holes Series)Holes (Holes Series) Louis Sachar ; Where the Wild Things Are: A Caldecott Award WinnerWhere ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+tagger 12  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAIQAg" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D16857165011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAIQAg&amp;usg=AOvVaw2CuXps4x0MiGfz-APoQvsL" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com: Best sellers &amp; more</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">New &amp; Noteworthy Kindle Books ; Cherish (Crave Book 6)Cherish (Crave Book 6) Tracy Wolff ; Rogue Justice: A Thriller (Avery Keene Book 2)Rogue Justice: A Thriller ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+tagger 13  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAgQAg" href="/url?q=https://www.amazon.com/Books-Kindle-Edition/s%3Frh%3Dn%253A283155%252Cp_n_feature_browse-bin%253A618073011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAgQAg&amp;usg=AOvVaw2BiyB3aApfjeWAkpIK9Z95" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Amazon.com: Kindle Edition</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › Books-Kindle-Edition</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Fourth Wing (The Empyrean Book 1) · Fourth Wing (The Empyrean Book 1) · Happy Place · Happy Place · The Covenant of Water (Oprah's Book Club) · The Covenant of Water ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+tagger 14  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAUQAg" href="/url?q=https://www.amazon.com/b%3Fie%3DUTF8%26node%3D17276804011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAUQAg&amp;usg=AOvVaw344dmtTxYefTIcvcOeGyXr" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Best Books of the Year @ Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Best kids' books of 2021. Amazon editors' top 100. Holiday gift picks. Celebrity picks ; The Escape Artist · Solito · Take My Hand · Stolen Focus ; Biographies ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+tagger 15  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAEQAg" href="/url?q=https://www.amazon.com/USA-Books/s%3Fk%3DUSA%26rh%3Dn%253A283155&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAEQAg&amp;usg=AOvVaw14NQPJNgkHXzO12XSBetgl" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">USA: Books - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › USA-Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">A Patriot's History of the United States: From Columbus's Great Discovery to America's Age of Entitlement, Revised Edition. by Larry Schweikart.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+tagger 16  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAQQAg" href="/url?q=https://www.amazon.com/b%3Fnode%3D154606011&amp;sa=U&amp;ved=2ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QFnoECAQQAg&amp;usg=AOvVaw23zkCfJI0_yR0f-xT89zQG" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Customer favorites in Kindle eBooks - Amazon.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.amazon.com › ...</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Customer favorites in Kindle eBooks · Dracula (AmazonClassics Edition) · The Atlantis Plague: A Thriller (The Origin Mystery, Book 2) · The Chronicles of Narnia ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+tagger 17  in tag 2 <footer> <div> <div class="Gx5Zad xpd EtOod pkphOe BmP5tf"><div class="nMymef MUxGbd lyLwlc"><a aria-label="Next page" class="nBDE1b G5eFlf" href="/search?q=site:amazon.com+books&amp;ie=UTF-8&amp;ei=ti6HZMHiEISv5NoPguil-AQ&amp;start=10&amp;sa=N">Next &gt;</a></div></div> </div> <div id="EOlPnc"><div class="Srfpq"><div><span class="EYqSq unknown_loc"></span><span class="dfB0uf">Chicago IL, Illinois</span></div><span>From your IP address</span><span> - </span><a aria-label="Learn more about this location" href="/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Qty4IQw&amp;usg=AOvVaw0_glEG1kNm7oAg8uzw1hOi" tabindex="0">Learn more</a></div><div><a href="/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dsite:amazon.com%252Bbooks%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Qxs8CCEQ&amp;usg=AOvVaw2Ljonl7sTYwP4VN8bQwOZq">Sign in</a></div><div><a class="xeDNfc" href="https://www.google.com/preferences?hl=en&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8Q5fUCCEU">Settings</a><a class="xeDNfc" href="https://policies.google.com/privacy?hl=en&amp;fg=1">Privacy</a><a class="xeDNfc" href="https://policies.google.com/terms?hl=en&amp;fg=1">Terms</a><a class="xeDNfc" href="/setprefs?hl=en&amp;prev=https://www.google.com/search?q%3Dsite:amazon.com%2Bbooks%26pccc%3D1&amp;sig=0_cD5_wvCrbyHWRk-qqktjeOgngMU%3D&amp;cs=2&amp;sa=X&amp;ved=0ahUKEwjBlZPE-73_AhWEF1kFHQJ0CU8QjcAJCEY">Dark theme: Off</a></div></div> </footer>
+
+
+
+
+
+
+
+
+tagger 18  in tag 2 <script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){var hl='en';(function(){
+var f=this||self,g=function(a){return a};var h,k=function(){if(void 0===h){var a=null,b=f.trustedTypes;if(b&&b.createPolicy){try{a=b.createPolicy("goog#html",{createHTML:g,createScript:g,createScriptURL:g})}catch(c){f.console&&f.console.error(c.message)}h=a}else h=a}return h};var p=function(a,b){this.h=a===l&&b||"";this.g=m},q=function(a){return a instanceof p&&a.constructor===p&&a.g===m?a.h:"type_error:Const"},m={},l={};var r=function(a){this.g=a};r.prototype.toString=function(){return this.g+""};var t=function(a){return a instanceof r&&a.constructor===r?a.g:"type_error:TrustedResourceUrl"},x=function(){var a={},b=q(new p(l,"/complete/search"));if(!u.test(b))throw Error("e`"+b);var c=b.replace(v,function(e,d){if(!Object.prototype.hasOwnProperty.call(a,d))throw Error("f`"+d+"`"+b+"`"+JSON.stringify(a));e=a[d];return e instanceof p?q(e):encodeURIComponent(String(e))});return w(c)},v=/%{(\w+)}/g,u=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),y=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,z={},w=function(a){var b=k();a=b?b.createScriptURL(a):a;return new r(a,z)},A=function(a,b,c){if(null==c)return b;if("string"===typeof c)return c?a+encodeURIComponent(c):"";for(var e in c)if(Object.prototype.hasOwnProperty.call(c,e)){var d=c[e];d=Array.isArray(d)?d:[d];for(var n=0;n<d.length;n++){var O=d[n];null!=O&&(b||(b=a),b+=(b.length>a.length?"&":"")+encodeURIComponent(e)+"="+encodeURIComponent(String(O)))}}return b};var B={},C=function(a){this.g=a};C.prototype.toString=function(){return this.g.toString()};
+function D(a,b){if(1===a.nodeType){var c=a.tagName;if("SCRIPT"===c||"STYLE"===c)throw Error("g");}a.innerHTML=b instanceof C&&b.constructor===C?b.g:"type_error:SafeHtml"};function E(a){a=null===a?"null":void 0===a?"undefined":a;var b=k();a=b?b.createHTML(a):a;return new C(a,B)};var F=document.querySelector(".l"),G=document.querySelector("#sf"),H=G.querySelector(".sbc"),I=G.querySelector("[type=text]"),J=G.querySelector("[type=submit]"),K=G.querySelector(".sc"),L=G.querySelector(".x"),M=I.value,N=[],P=-1,Q=M,R,S,T;M||(L&&(L.style.display="none"),U(!1));function U(a){if(H.classList.contains("esbc")){var b=H.classList.contains("chsbc"),c=H.classList.contains("rtlsbc");a&&(K.style.display="block",b?(G.style.borderRadius="20px 20px 0 0",K.style.borderBottom="1px solid #DFE1E5",J.style.borderRadius=c?"20px 0 0 0":"0 20px 0 0"):H.style.borderRadius=c?"0 8px 0 0":"8px 0 0 0");a||(K.style.display="none",b?(G.style.borderRadius="20px",K.style.borderBottom="none",J.style.borderRadius=c?"20px 0 0 20px":"0 20px 20px 0"):H.style.borderRadius=c?"0 8px 8px 0":"8px 0 0 8px")}}function V(){G.querySelector("[name=oq]").value=Q;G.querySelector("[name=aqs]").value="heirloom-srp."+(0<=P?P:"")+"."+(0<N.length?"0l"+N.length:"")}
+function W(){R=null;if(S){var a={client:"heirloom-srp",hl:hl,json:"t",callback:"hS",q:S};"undefined"!==typeof ds&&ds&&(a.ds=ds);var b=document;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);b=x();b=y.exec(t(b).toString());var e=b[3]||"";a=w(b[1]+A("?",b[2]||"",a)+A("#",e));c.src=t(a);var d,n;(d=(a=null==(n=(d=(c.ownerDocument&&c.ownerDocument.defaultView||window).document).querySelector)?void 0:n.call(d,"script[nonce]"))?a.nonce||a.getAttribute("nonce")||
+"":"")&&c.setAttribute("nonce",d);document.body.appendChild(c);S=null;R=setTimeout(W,500)}}function X(){for(;K.firstChild;)K.removeChild(K.firstChild);N=[];P=-1;U(!1)}function Y(){var a=K.querySelector(".scs");a&&(a.className="");0<=P?(a=K.childNodes[P],a.className="scs",M=a.textContent):M=Q;I.value=M}I.addEventListener("focus",function(){F&&(F.style.display="none")},!1);I.addEventListener("blur",function(){X();F&&(F.style.display="")},!1);I.addEventListener("keyup",function(a){M=I.value;T=!1;13===a.which?V():27===a.which?(X(),F&&(F.style.display=""),M=Q,I.value=M):40===a.which?(P++,P>=N.length&&(P=-1),Y()):38===a.which?(P--,-1>P&&(P=N.length-1),Y()):(a=M)?(L&&(L.style.display=""),S=a,R||W(),Q=a):(L&&(L.style.display="none"),U(!1),X(),Q="",T=!0)},!1);J.addEventListener("click",V,!1);L.addEventListener("click",function(){I.value="";L.style.display="none";U(!1)},!1);H.addEventListener("click",function(){I.focus()},!1);window.hS=function(a){if(!T){X();0===a[1].length&&U(!1);for(var b=0;b<a[1].length;b++){var c=a[1][b][0],e=document.createElement("div");D(e,E(c));e.addEventListener("mousedown",function(d){d.preventDefault();return!1},!1);c=c.replace(/<\/?b>/g,"");e.addEventListener("click",function(d){return function(){P=d;V();Y();X();G.submit()}}(b),!1);e.addEventListener("mouseover",function(d){return function(){P!==d&&(P=d,Y())}}(b),!1);K.appendChild(e);U(!0);N.push(c)}}};}).call(this);})();(function(){function b(a){for(a=a.target||a.srcElement;a&&"A"!==a.nodeName;)a=a.parentElement;a&&(a.href||"").match(/\/search.*[?&]tbm=isch/)&&(a.href+="&biw="+document.documentElement.clientWidth,a.href+="&bih="+document.documentElement.clientHeight)}document.addEventListener("click",b,!1);document.addEventListener("touchStart",b,!1);}).call(this);</script>
+
+
+
+
+
+
+
+
+
+tag:  2  cctlcm 5 cctlcm
+
+
+
+
+
+
+
+tagger 19  in tag 3
+
+
+
+
+
+
+tagger 20  in tag 3 c
+
+
+
+
+
+
+
+tagger 21  in tag 3 c
+
+
+
+
+
+
+tagger 22  in tag 3 t
+
+
+
+
+
+
+tagger 23  in tag 3 l
+
+
+
+
+tagger 24  in tag 3 c
+
+
+
+
+tagger 25  in tag 3 m
+
+
+
+
+tagger 26  in tag 3
+
+
+
+
+
+
+tagger 27  in tag 3 5
+
+
+
+
+tagger 28  in tag 3
+
+
+
+
+
+tagger 29  in tag 3 c
+
+
+
+
+
+tagger 30  in tag 3 c
+
+
+
+
+tagger 31  in tag 3 t
+
+
+
+
+
+tagger 32  in tag 3 l
+
+
+
+
+
+tagger 33  in tag 3 c
+
+
+
+
+
+tagger 34  in tag 3 m
+
+
+
+
+
+tagger 35  in tag 3
+
+
+
+
+
+
+tag:  3 <textarea class="csi" name="csi" style="display:none"></textarea>
+
+
+
+
+tag:  4 <script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){var e='ti6HZMHiEISv5NoPguil-AQ';var sn='web';var timl=false;(function(){function B(a){if(!a||C(a))return 0;if(!a.getBoundingClientRect)return 1;var c=function(b){return b.getBoundingClientRect()};return D(a,c)?0:J(a,c)}function D(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if("hidden"===b.style.overflow||"G-EXPANDABLE-CONTENT"===b.tagName&&"hidden"===getComputedStyle(b).getPropertyValue("overflow"))break a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}
+function C(a){return"none"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&("hidden"===a.visibility||"0px"===a.height&&"0px"===a.width)):!1}
+function J(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var f=b.width;b=b.height;var g=0;if(0>=b&&0>=f)return g;var q=window.innerHeight||document.documentElement.clientHeight;0>c+b?g=2:c>=q&&(g=4);if(0>a+f||a>=(window.innerWidth||document.documentElement.clientWidth))g|=8;g||(g=1,c+b>q&&(g|=4));return g};var K=e,L=sn,M="undefined"===typeof de?!0:!1!==de,N=[];function O(a,c,b){a="/gen_204?atyp=csi&s="+L+"&t="+a+("&lite=1&ei="+K+"&conn="+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c="&rt=";for(var f in b)a+=""+c+f+"."+b[f],c=",";return a}function P(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return a}function Q(a){window.ping?window.ping(a):(new Image).src=a}
+(function(){for(var a=(new Date).getTime()-window.start,c=P(a),b=0,f=0,g=0,q=document.getElementsByTagName("img"),r=M?"&biw="+window.innerWidth+"&bih="+window.innerHeight:"",E=function(){r+="&ima="+g;c.aft=b;Q(O("aft",r,c))},x=0,R=function(h,t,u){var n=h.src;h.onload=function(){u&&n&&n===h.src||(f=(new Date).getTime()-window.start,t&&++x===g&&(b=f,E()),h.onload=null)}},S=0,d=void 0;d=q[S++];){var v=B(d),p=!!(v&1);p&&++g;var l=d.hasAttribute("data-ilite"),w=d.hasAttribute("data-deferred"),F=d.hasAttribute("data-src")||
+d.hasAttribute("data-lzysrc"),y=!w&&!l&&F;N.push([v,w||l,y,!!(google.ldi&&d.id&&google.ldi[d.id])||l&&F]);l=(v=d.complete&&!w&&!(p&&y))&&Number(d.getAttribute("data-iml"))||0;v&&l?(p&&++x,l&&(d=l-window.start,p&&(b=Math.max(b,d)),f=Math.max(f,d))):R(d,p,w||y)}b||(b=a);f||(f=b);x===g&&E();google.rglh&&google.rglh();window.addEventListener("load",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;timl&&(c.iml=f);var h=window.performance&&window.performance.timing;h&&(c.rqst=
+h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var t=h=0,u=0,n=0,G=0,H=0,T=0,k;k=N[T++];){var m=k[0],z=k[1],I=k[2];k=k[3];var U=0==m,V=m&8,A=m&1;m=!A&&m&4;A&&(z&&!k||++u,I&&++H);z&&(A&&k&&++h,m&&!k&&++t);U||V?I||++G:z||++n}r+="&ime="+u+"&imel="+H+("&imex="+n+"&imeh="+G)+("&imea="+h+"&imeb="+t);Q(O("all",r,c))},0)},!1)})();}).call(this);})();</script>
+
+
+
+
+
+
+
+
+tagger 36  in tag 5 (function(){var e='ti6HZMHiEISv5NoPguil-AQ';var sn='web';var timl=false;(function(){function B(a){if(!a||C(a))return 0;if(!a.getBoundingClientRect)return 1;var c=function(b){return b.getBoundingClientRect()};return D(a,c)?0:J(a,c)}function D(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if("hidden"===b.style.overflow||"G-EXPANDABLE-CONTENT"===b.tagName&&"hidden"===getComputedStyle(b).getPropertyValue("overflow"))break a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}
+function C(a){return"none"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&("hidden"===a.visibility||"0px"===a.height&&"0px"===a.width)):!1}
+function J(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var f=b.width;b=b.height;var g=0;if(0>=b&&0>=f)return g;var q=window.innerHeight||document.documentElement.clientHeight;0>c+b?g=2:c>=q&&(g=4);if(0>a+f||a>=(window.innerWidth||document.documentElement.clientWidth))g|=8;g||(g=1,c+b>q&&(g|=4));return g};var K=e,L=sn,M="undefined"===typeof de?!0:!1!==de,N=[];function O(a,c,b){a="/gen_204?atyp=csi&s="+L+"&t="+a+("&lite=1&ei="+K+"&conn="+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c="&rt=";for(var f in b)a+=""+c+f+"."+b[f],c=",";return a}function P(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return a}function Q(a){window.ping?window.ping(a):(new Image).src=a}
+(function(){for(var a=(new Date).getTime()-window.start,c=P(a),b=0,f=0,g=0,q=document.getElementsByTagName("img"),r=M?"&biw="+window.innerWidth+"&bih="+window.innerHeight:"",E=function(){r+="&ima="+g;c.aft=b;Q(O("aft",r,c))},x=0,R=function(h,t,u){var n=h.src;h.onload=function(){u&&n&&n===h.src||(f=(new Date).getTime()-window.start,t&&++x===g&&(b=f,E()),h.onload=null)}},S=0,d=void 0;d=q[S++];){var v=B(d),p=!!(v&1);p&&++g;var l=d.hasAttribute("data-ilite"),w=d.hasAttribute("data-deferred"),F=d.hasAttribute("data-src")||
+d.hasAttribute("data-lzysrc"),y=!w&&!l&&F;N.push([v,w||l,y,!!(google.ldi&&d.id&&google.ldi[d.id])||l&&F]);l=(v=d.complete&&!w&&!(p&&y))&&Number(d.getAttribute("data-iml"))||0;v&&l?(p&&++x,l&&(d=l-window.start,p&&(b=Math.max(b,d)),f=Math.max(f,d))):R(d,p,w||y)}b||(b=a);f||(f=b);x===g&&E();google.rglh&&google.rglh();window.addEventListener("load",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;timl&&(c.iml=f);var h=window.performance&&window.performance.timing;h&&(c.rqst=
+h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var t=h=0,u=0,n=0,G=0,H=0,T=0,k;k=N[T++];){var m=k[0],z=k[1],I=k[2];k=k[3];var U=0==m,V=m&8,A=m&1;m=!A&&m&4;A&&(z&&!k||++u,I&&++H);z&&(A&&k&&++h,m&&!k&&++t);U||V?I||++G:z||++n}r+="&ime="+u+"&imel="+H+("&imex="+n+"&imeh="+G)+("&imea="+h+"&imeb="+t);Q(O("all",r,c))},0)},!1)})();}).call(this);})();
+
+
+
+
+
+
+
+
+
+tag:  5 <script nonce="E_Fd5ijwMzt1bmCp6hUvLA">(function(){var e='ti6HZMHiEISv5NoPguil-AQ';(function(){var a=e;2===(window.performance&&window.performance.navigation&&window.performance.navigation.type)&&window.ping("/gen_204?ct=backbutton&ei="+a);}).call(this);})();(function(){var b=[function(){google.tick&&google.tick("load","dcl")}];google.dclc=function(a){b.length?b.push(a):a()};function c(){for(var a=b.shift();a;)a(),a=b.shift()}window.addEventListener?(document.addEventListener("DOMContentLoaded",c,!1),window.addEventListener("load",c,!1)):window.attachEvent&&window.attachEvent("onload",c);}).call(this);(function(){
+var b=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}},e=this||self;var g,h;a:{for(var k=["CLOSURE_FLAGS"],l=e,n=0;n<k.length;n++)if(l=l[k[n]],null==l){h=null;break a}h=l}var p=h&&h[610401301];g=null!=p?p:!1;var q,r=e.navigator;q=r?r.userAgentData||null:null;function t(a){return g?q?q.brands.some(function(c){return(c=c.brand)&&-1!=c.indexOf(a)}):!1:!1}function u(a){var c;a:{if(c=e.navigator)if(c=c.userAgent)break a;c=""}return-1!=c.indexOf(a)};function v(){return g?!!q&&0<q.brands.length:!1}function w(){return u("Safari")&&!(x()||(v()?0:u("Coast"))||(v()?0:u("Opera"))||(v()?0:u("Edge"))||(v()?t("Microsoft Edge"):u("Edg/"))||(v()?t("Opera"):u("OPR"))||u("Firefox")||u("FxiOS")||u("Silk")||u("Android"))}function x(){return v()?t("Chromium"):(u("Chrome")||u("CriOS"))&&!(v()?0:u("Edge"))||u("Silk")}function y(){return u("Android")&&!(x()||u("Firefox")||u("FxiOS")||(v()?0:u("Opera"))||u("Silk"))};var z=v()?!1:u("Trident")||u("MSIE");y();x();w();var A=!z&&!w(),D=function(a){if(/-[a-z]/.test("ved"))return null;if(A&&a.dataset){if(y()&&!("ved"in a.dataset))return null;a=a.dataset.ved;return void 0===a?null:a}return a.getAttribute("data-"+"ved".replace(/([A-Z])/g,"-$1").toLowerCase())};var E=[],F=null;function G(a){a=a.target;var c=performance.now(),f=[],H=f.concat,d=E;if(!(d instanceof Array)){var m="undefined"!=typeof Symbol&&Symbol.iterator&&d[Symbol.iterator];if(m)d=m.call(d);else if("number"==typeof d.length)d={next:b(d)};else throw Error("a`"+String(d));for(var B=[];!(m=d.next()).done;)B.push(m.value);d=B}E=H.call(f,d,[c]);if(a&&a instanceof HTMLElement)if(a===F){if(c=4<=E.length)c=5>(E[E.length-1]-E[E.length-4])/1E3;if(c){c=google.getEI(a);a.hasAttribute("data-ved")?f=a?D(a)||"":"":f=(f=
+a.closest("[data-ved]"))?D(f)||"":"";f=f||"";if(a.hasAttribute("jsname"))a=a.getAttribute("jsname");else{var C;a=null==(C=a.closest("[jsname]"))?void 0:C.getAttribute("jsname")}google.log("rcm","&ei="+c+"&ved="+f+"&jsname="+(a||""))}}else F=a,E=[c]}window.document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",G)});}).call(this);window.jsl=window.jsl||{};window.jsl.dh=function(a,b,f){try{var g=document.getElementById(a);if(g)g.innerHTML=b,f&&f();else{var c={id:a,script:String(!!f),milestone:String(google.jslm||0)};google.jsla&&(c.async=google.jsla);var h=a.indexOf("_"),d=0<h?a.substring(0,h):"",k=document.createElement("div");k.innerHTML=b;var e=k.children[0];if(e&&(c.tag=e.tagName,c["class"]=String(e.className||null),c.name=String(e.getAttribute("jsname")),d)){a=[];var l=document.querySelectorAll('[id^="'+d+'_"]');for(b=0;b<l.length;++b)a.push(l[b].id);c.ids=a.join(",")}google.ml(Error(d?"Missing ID with prefix "+d:"Missing ID"),!1,c)}}catch(m){google.ml(m,!0,{"jsl.dh":!0})}};(function(){var x=false;google.jslm=x?2:1;})();(function(){(function(){google.csct={};google.csct.ps='AOvVaw0C2IqvJ0ErQg-ZP14M1QT3\x26ust\x3d1686667318314038';})();})();(function(){(function(){google.csct.rd=true;})();})();(function(){(function(){google.csct.rl=true;})();})();google.drty&&google.drty(undefined,true);</script>
+
+
+
+
+
+
+
+
+tagger 37  in tag 6 (function(){var e='ti6HZMHiEISv5NoPguil-AQ';(function(){var a=e;2===(window.performance&&window.performance.navigation&&window.performance.navigation.type)&&window.ping("/gen_204?ct=backbutton&ei="+a);}).call(this);})();(function(){var b=[function(){google.tick&&google.tick("load","dcl")}];google.dclc=function(a){b.length?b.push(a):a()};function c(){for(var a=b.shift();a;)a(),a=b.shift()}window.addEventListener?(document.addEventListener("DOMContentLoaded",c,!1),window.addEventListener("load",c,!1)):window.attachEvent&&window.attachEvent("onload",c);}).call(this);(function(){
+var b=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}},e=this||self;var g,h;a:{for(var k=["CLOSURE_FLAGS"],l=e,n=0;n<k.length;n++)if(l=l[k[n]],null==l){h=null;break a}h=l}var p=h&&h[610401301];g=null!=p?p:!1;var q,r=e.navigator;q=r?r.userAgentData||null:null;function t(a){return g?q?q.brands.some(function(c){return(c=c.brand)&&-1!=c.indexOf(a)}):!1:!1}function u(a){var c;a:{if(c=e.navigator)if(c=c.userAgent)break a;c=""}return-1!=c.indexOf(a)};function v(){return g?!!q&&0<q.brands.length:!1}function w(){return u("Safari")&&!(x()||(v()?0:u("Coast"))||(v()?0:u("Opera"))||(v()?0:u("Edge"))||(v()?t("Microsoft Edge"):u("Edg/"))||(v()?t("Opera"):u("OPR"))||u("Firefox")||u("FxiOS")||u("Silk")||u("Android"))}function x(){return v()?t("Chromium"):(u("Chrome")||u("CriOS"))&&!(v()?0:u("Edge"))||u("Silk")}function y(){return u("Android")&&!(x()||u("Firefox")||u("FxiOS")||(v()?0:u("Opera"))||u("Silk"))};var z=v()?!1:u("Trident")||u("MSIE");y();x();w();var A=!z&&!w(),D=function(a){if(/-[a-z]/.test("ved"))return null;if(A&&a.dataset){if(y()&&!("ved"in a.dataset))return null;a=a.dataset.ved;return void 0===a?null:a}return a.getAttribute("data-"+"ved".replace(/([A-Z])/g,"-$1").toLowerCase())};var E=[],F=null;function G(a){a=a.target;var c=performance.now(),f=[],H=f.concat,d=E;if(!(d instanceof Array)){var m="undefined"!=typeof Symbol&&Symbol.iterator&&d[Symbol.iterator];if(m)d=m.call(d);else if("number"==typeof d.length)d={next:b(d)};else throw Error("a`"+String(d));for(var B=[];!(m=d.next()).done;)B.push(m.value);d=B}E=H.call(f,d,[c]);if(a&&a instanceof HTMLElement)if(a===F){if(c=4<=E.length)c=5>(E[E.length-1]-E[E.length-4])/1E3;if(c){c=google.getEI(a);a.hasAttribute("data-ved")?f=a?D(a)||"":"":f=(f=
+a.closest("[data-ved]"))?D(f)||"":"";f=f||"";if(a.hasAttribute("jsname"))a=a.getAttribute("jsname");else{var C;a=null==(C=a.closest("[jsname]"))?void 0:C.getAttribute("jsname")}google.log("rcm","&ei="+c+"&ved="+f+"&jsname="+(a||""))}}else F=a,E=[c]}window.document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",G)});}).call(this);window.jsl=window.jsl||{};window.jsl.dh=function(a,b,f){try{var g=document.getElementById(a);if(g)g.innerHTML=b,f&&f();else{var c={id:a,script:String(!!f),milestone:String(google.jslm||0)};google.jsla&&(c.async=google.jsla);var h=a.indexOf("_"),d=0<h?a.substring(0,h):"",k=document.createElement("div");k.innerHTML=b;var e=k.children[0];if(e&&(c.tag=e.tagName,c["class"]=String(e.className||null),c.name=String(e.getAttribute("jsname")),d)){a=[];var l=document.querySelectorAll('[id^="'+d+'_"]');for(b=0;b<l.length;++b)a.push(l[b].id);c.ids=a.join(",")}google.ml(Error(d?"Missing ID with prefix "+d:"Missing ID"),!1,c)}}catch(m){google.ml(m,!0,{"jsl.dh":!0})}};(function(){var x=false;google.jslm=x?2:1;})();(function(){(function(){google.csct={};google.csct.ps='AOvVaw0C2IqvJ0ErQg-ZP14M1QT3\x26ust\x3d1686667318314038';})();})();(function(){(function(){google.csct.rd=true;})();})();(function(){(function(){google.csct.rl=true;})();})();google.drty&&google.drty(undefined,true);
+url https://www.google.com/search?q=site%3Awalmart.com+books
+response <Response [200]>
+<body jsmodel="hspDDf"><header id="hdr"><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){
+var k=this||self,l=function(a){var b=typeof a;return"object"==b&&null!=a||"function"==b},m=function(a,b){function c(){}c.prototype=b.prototype;a.j=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.l=function(d,e,f){for(var g=Array(arguments.length-2),h=2;h<arguments.length;h++)g[h-2]=arguments[h];return b.prototype[e].apply(d,g)}};var n=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if("string"===typeof a)return"string"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c in a&&a[c]===b)return c;return-1};var p=function(a){return"string"==typeof a.className?a.className:a.getAttribute&&a.getAttribute("class")||""},q=function(a,b){"string"==typeof a.className?a.className=b:a.setAttribute&&a.setAttribute("class",b)},r=function(a,b){a.classList?b=a.classList.contains(b):(a=a.classList?a.classList:p(a).match(/\S+/g)||[],b=0<=n(a,b));return b},v=function(){var a=t,b=u;a.classList?a.classList.remove(b):r(a,b)&&q(a,Array.prototype.filter.call(a.classList?a.classList:p(a).match(/\S+/g)||[],function(c){return c!=
+b}).join(" "))};function w(){var a=k.navigator;return a&&(a=a.userAgent)?a:""};var x=function(a){x[" "](a);return a};x[" "]=function(){};var y=-1!=w().indexOf("Gecko")&&!(-1!=w().toLowerCase().indexOf("webkit")&&-1==w().indexOf("Edge"))&&!(-1!=w().indexOf("Trident")||-1!=w().indexOf("MSIE"))&&-1==w().indexOf("Edge");var z=function(a,b){this.type=a;this.target=b};z.prototype.g=function(){};var A=function(){if(!k.addEventListener||!Object.defineProperty)return!1;var a=!1,b=Object.defineProperty({},"passive",{get:function(){a=!0}});try{var c=function(){};k.addEventListener("test",c,b);k.removeEventListener("test",c,b)}catch(d){}return a}();var C=function(a){z.call(this,a?a.type:"");this.relatedTarget=this.target=null;this.button=this.screenY=this.screenX=this.clientY=this.clientX=0;this.key="";this.keyCode=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.state=null;this.pointerId=0;this.pointerType="";this.h=null;if(a){var b=this.type=a.type,c=a.changedTouches&&a.changedTouches.length?a.changedTouches[0]:null;this.target=a.target||a.srcElement;var d=a.relatedTarget;if(d){if(y){a:{try{x(d.nodeName);var e=!0;break a}catch(f){}e=
+!1}e||(d=null)}}else"mouseover"==b?d=a.fromElement:"mouseout"==b&&(d=a.toElement);this.relatedTarget=d;c?(this.clientX=void 0!==c.clientX?c.clientX:c.pageX,this.clientY=void 0!==c.clientY?c.clientY:c.pageY,this.screenX=c.screenX||0,this.screenY=c.screenY||0):(this.clientX=void 0!==a.clientX?a.clientX:a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.key=a.key||"";this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.pointerId=a.pointerId||0;this.pointerType="string"===typeof a.pointerType?a.pointerType:B[a.pointerType]||"";this.state=a.state;this.h=a;a.defaultPrevented&&C.j.g.call(this)}};m(C,z);var B={2:"touch",3:"pen",4:"mouse"};C.prototype.g=function(){C.j.g.call(this);var a=this.h;a.preventDefault?a.preventDefault():a.returnValue=!1};var D="closure_listenable_"+(1E6*Math.random()|0);var E=0;var F=function(a,b,c,d,e){this.listener=a;this.proxy=null;this.src=b;this.type=c;this.capture=!!d;this.h=e;this.key=++E;this.g=this.i=!1},G=function(a){a.g=!0;a.listener=null;a.proxy=null;a.src=null;a.h=null};var H=function(a){this.src=a;this.g={};this.h=0};H.prototype.add=function(a,b,c,d,e){var f=a.toString();a=this.g[f];a||(a=this.g[f]=[],this.h++);var g;a:{for(g=0;g<a.length;++g){var h=a[g];if(!h.g&&h.listener==b&&h.capture==!!d&&h.h==e)break a}g=-1}-1<g?(b=a[g],c||(b.i=!1)):(b=new F(b,this.src,f,!!d,e),b.i=c,a.push(b));return b};var I="closure_lm_"+(1E6*Math.random()|0),J={},K=0,M=function(a,b,c,d,e){if(d&&d.once)return L(a,b,c,d,e);if(Array.isArray(b)){for(var f=0;f<b.length;f++)M(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.g(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!1,d,e)},O=function(a,b,c,d,e,f){if(!b)throw Error("a");var g=l(e)?!!e.capture:!!e,h=P(a);h||(a[I]=h=new H(a));c=h.add(b,c,d,g,f);if(c.proxy)return c;d=Q();c.proxy=d;d.src=a;d.listener=c;if(a.addEventListener)A||(e=g),void 0===e&&(e=!1),a.addEventListener(b.toString(),d,e);else if(a.attachEvent)a.attachEvent(R(b.toString()),d);else if(a.addListener&&a.removeListener)a.addListener(d);else throw Error("b");K++;return c},Q=function(){var a=S,b=function(c){return a.call(b.src,b.listener,c)};return b},L=function(a,b,c,d,e){if(Array.isArray(b)){for(var f=0;f<b.length;f++)L(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.h(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!0,d,e)},T=function(a){if("number"!==typeof a&&a&&!a.g){var b=a.src;if(b&&b[D])b.o(a);else{var c=a.type,d=a.proxy;b.removeEventListener?b.removeEventListener(c,d,a.capture):b.detachEvent?b.detachEvent(R(c),d):b.addListener&&b.removeListener&&b.removeListener(d);K--;if(c=P(b)){d=a.type;if(d in c.g){var e=c.g[d],f=n(e,a),g;(g=0<=f)&&Array.prototype.splice.call(e,f,1);g&&(G(a),0==c.g[d].length&&(delete c.g[d],c.h--))}0==c.h&&(c.src=null,b[I]=null)}else G(a)}}},R=function(a){return a in J?J[a]:J[a]="on"+a},S=function(a,b){if(a.g)a=!0;else{b=new C(b,this);var c=a.listener,d=a.h||a.src;a.i&&T(a);a=c.call(d,b)}return a},P=function(a){a=a[I];return a instanceof H?a:null},U="__closure_events_fn_"+(1E9*Math.random()>>>0),N=function(a){if("function"===typeof a)return a;a[U]||(a[U]=function(b){return a.handleEvent(b)});return a[U]};var u,t=document.documentElement,V;function W(){T(V);V=L(t,"mousedown",function(){v();X()},{capture:!0})}function X(){T(V);V=M(t,"keydown",function(a){if(9===a.keyCode){a=t;var b=u;if(a.classList)a.classList.add(b);else if(!r(a,b)){var c=p(a);q(a,c+(0<c.length?" "+b:b))}W()}})};u="zAoYTe";X();}).call(this);</script><div class="cOl4Id"><a href="/?sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQOwgC"><span class="V6gwVd">G</span><span class="iWkuvd">o</span><span class="cDrQ7">o</span><span class="V6gwVd">g</span><span class="ntlR9">l</span><span class="iWkuvd tJ3Myc">e</span></a></div><div class="bz1lBb"><form class="Pg70bf" id="sf"><input name="ie" type="hidden" value="ISO-8859-1"/><div class="H0PQec"><div class="sbc esbc"><input autocapitalize="none" autocomplete="off" class="noHIxc" name="q" spellcheck="false" type="text" value="site:walmart.com books"/><input name="oq" type="hidden"/><input name="aqs" type="hidden"/><div class="x">×</div><div class="sc"></div></div></div><button id="qdClwb" type="submit"></button></form></div><noscript><meta content="0;url=/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ty6HZP6BD8Ss5NoP5sigyAg" http-equiv="refresh"/><style>table,div,span,p{display:none}</style><div style="display:block">Please click <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ty6HZP6BD8Ss5NoP5sigyAg">here</a> if you are not redirected within a few seconds.</div></noscript></header><div id="main"><div><div class="KP7LCb"> <div class="bRsWnc"> <div class="N6RWV"> <div class="Pg70bf Uv67qb"> <span class="OXXup">All</span><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUIBigB">Books</a><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUIBygC">Images</a><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICCgD">Shopping</a> <a href="https://maps.google.com/maps?q=site:walmart.com+books&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICSgE">Maps</a> <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICigF">Videos</a> <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICygG">News</a> <div class="FElbsf"><a href="/advanced_search" id="st-toggle" role="button" style="white-space:nowrap">Search tools</a></div> </div> </div> </div> </div><div class="Pg70bf wEsjbd Gx5Zad xpd EtOod pkphOe" id="st-card" style="display:none"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style><div class="Xj2aue"><div class="coPU8c"><div class="RnNGze"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{background:#fff;display:none;position:absolute;border:1px solid #dadce0;box-shadow:0 2px 4px rgba(0,0,0,.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090 transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active .OmTIzf{border-color:#4285f4 transparent}</style><div class="TWMOUc">Any time</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl a{color:#70757a;text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style><li class="yNFsl SkUj4c">Any time</li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDQ">Past hour</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDg">Past 24 hours</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDw">Past week</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEA">Past month</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEQ">Past year</a></li></ul></div><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><div class="TWMOUc">All results</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><li class="yNFsl SkUj4c">All results</li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEw">Verbatim</a></li></ul></div></div></div></div><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var a=document.getElementById("st-toggle"),b=document.getElementById("st-card");a&&b&&a.addEventListener("click",function(c){b.style.display=b.style.display?"":"none";c.preventDefault()},!1);}).call(this);</script></div></div><style>.Gx5Zad{background-color:#fff;margin-bottom:30px;box-shadow:0 0 0 1px #dfe1e5;border-radius:8px}.pkphOe{font-size:14px;line-height:22px;}.EtOod>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.EtOod.avPKgf>*:last-child{border-bottom-left-radius:4px}.EtOod>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.fP1Qef{background:transparent !important;box-shadow:none !important;border:none !important}.Gx5Zad.fP1Qef{margin-top:-12px;margin-bottom:18px}.rl7ilb{display:block;clear:both}.egMi0{margin-bottom:-19px}.kCrYT{padding:12px 16px 12px}a.fdYsqf{color:#4b11a8}.sCuL3{position:absolute;width:100%;top:0;left:0;padding-top:1px;margin-bottom:-1px}.j039Wc{padding-top:28px;margin-bottom:-1px}.DnJfK{position:relative}.l97dzf{font-weight:400}.zBAuLc{line-height:normal;margin:0;padding:0}.BNeawe{white-space:pre-line;word-wrap:break-word}.vvjwJb{color:#1a0dab;font-size:20px;line-height:26px}a:visited .vvjwJb,.vvjwJb a:visited{color:#4b11a8}.vvjwJb.HrGdeb{color:#fff}a:visited .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:22px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#202124}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.Ap5OSd{padding-bottom:12px}.s3v9rd{font-size:14px;line-height:22px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.r0bn4c.tr0dw{color:rgba(255,255,255,.70)}.r0bn4c.rQMQod{color:#70757a}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef span{text-align:center}.EYqSq{margin:6px 4px 9px 0;border-radius:100%;display:inline-block;height:10px;vertical-align:middle;width:10px}.dfB0uf{color:#3c4043;font-weight:bold}</style><div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAEQAg" href="/url?q=https://www.walmart.com/cp/books/3920&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAEQAg&amp;usg=AOvVaw0S4Ts9iSk7JVjGmotRePQV" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Books at Walmart.com and browse categories like Young Adult Books, Children's Books, Mystery Books, Adult Coloring Books and Cook Books.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAkQAg" href="/url?q=https://www.walmart.com/browse/literature-fiction-books/3920_582105&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAkQAg&amp;usg=AOvVaw3SHy1pyqv5hOO7fjUxADtm" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Literature &amp; Fiction Books in Books(1000+) - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Literature &amp; Fiction Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Fiction Novels; Romance Books; Contemporary Romance Books; Science Fiction &amp; Fantasy Books; Mystery, Thriller &amp; Suspense Books; Literary Novels</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAUQAg" href="/url?q=https://www.walmart.com/browse/books/3920&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAUQAg&amp;usg=AOvVaw3mb50N2fRRaHO9F8i7Jju0" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › browse › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">All Books; Children's &amp; Kids' Books; Literature &amp; Fiction Books; Fiction Novels; Religion &amp; Spirituality Books; Christian Books &amp; Bibles; Animal Kids' Books</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAcQAg" href="/url?q=https://www.walmart.com/browse/walmart-books-best-sellers/3920_1057224&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAcQAg&amp;usg=AOvVaw2ncsLNR_wG7rpbtJ4ATgyC" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Walmart Books Best Sellers in Books(773)</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">We have a Top 200 Books section that features top sellers in all book categories. You can also browse books by type: adult fiction, adult non-fiction, easy ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAYQAg" href="/url?q=https://www.walmart.com/cp/childrens-kids-books/582053&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAYQAg&amp;usg=AOvVaw2KOSeQ-YSfkKHYURMbNuNj" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Children's &amp; Kids' Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › childrens-kids-books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Percy Jackson &amp; the Olympians: Percy Jackson and the Olympians, Book Five the Last Olympian (Percy Jackson and the Olympians, Book Five) (Series #5) ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAgQAg" href="/url?q=https://www.walmart.com/browse/books/movies-books-and-music-free-2-day-shipping/3920/c2hlbGZfaWQ6Njk1Ngieie&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAgQAg&amp;usg=AOvVaw2hvg3KYBwzPpgUD2CL7cKY" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › books › movies-books-and-music-free-2-day-shipping</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Books at Walmart and save. ... Bright &amp; Early Board Books(tm): Are You My Mother? (Board book). 1724.5 out of 5 Stars. 172 reviews. Save with.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAIQAg" href="/url?q=https://www.walmart.com/tp/paperback-books&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAIQAg&amp;usg=AOvVaw3L6paVMZZ3-wQ_Agyaanzx" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Paperback Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Paperback Books at Walmart.com. Save money. Live better. ... Disney Dreams Collection Thomas Kinkade Studios Coloring Book (Paperback).</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAAQAg" href="/url?q=https://www.walmart.com/browse/books/top-100-books/3920_1057224_1615275&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAAQAg&amp;usg=AOvVaw26ZEDO-CdzXtQgCsB9b8_F" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Top 100 Books in Walmart Books Best Sellers</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers › Top 100 Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Top 100 Books in Walmart Books Best Sellers(219) ; The Fallen. The Fallen. $15.76 ; The Baseball 100 (Hardcover). The Baseball 100 (Hardcover). $22.40 ; End Game.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAMQAg" href="/url?q=https://www.walmart.com/browse/books/biographies-memoirs/3920_5196470&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAMQAg&amp;usg=AOvVaw0rt413jVS00traIj0zc6fH" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Biographies &amp; Memoirs in Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Biographies &amp; Memoirs</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Biographies &amp; Memoirs in Books(1000+) ; Spare by Prince Harry (Hardcover) · Spare by Prince Harry (Hardcover). $19.05 ; The Watchmaker's Daughter : The True Story ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAQQAg" href="/url?q=https://photos3.walmart.com/category/113-photo-books&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAQQAg&amp;usg=AOvVaw3L10C9lYAdRglXyVvZ4b5B" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Photo Books | Walmart Photo</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">photos3.walmart.com › Photo Books › Custom Photo Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div class="v9i61e"><div class="BNeawe s3v9rd AP7Wnd"><span class="r0bn4c rQMQod">$7.96 to $64.96</span> <span class="r0bn4c rQMQod">In stock</span></div></div><div><div class="BNeawe s3v9rd AP7Wnd">These affordable photo books are bound professionally and include premium quality pages. Create your own photo book quickly and easily online after you've ...</div></div></div></div></div></div></div></div><footer> <div> <div class="Gx5Zad xpd EtOod pkphOe BmP5tf"><div class="nMymef MUxGbd lyLwlc"><a aria-label="Next page" class="nBDE1b G5eFlf" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;ei=ty6HZP6BD8Ss5NoP5sigyAg&amp;start=10&amp;sa=N">Next &gt;</a></div></div> </div> <div id="EOlPnc"><div class="Srfpq"><div><span class="EYqSq unknown_loc"></span><span class="dfB0uf">Chicago IL, Illinois</span></div><span>From your IP address</span><span> - </span><a aria-label="Learn more about this location" href="/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQty4IPg&amp;usg=AOvVaw0ZzTnsG8eNZ2-q0I-AbDcy" tabindex="0">Learn more</a></div><div><a href="/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dsite:walmart.com%252Bbooks%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQxs8CCD8&amp;usg=AOvVaw3xIlAonAGowVyBfjOiNO5_">Sign in</a></div><div><a class="xeDNfc" href="https://www.google.com/preferences?hl=en&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ5fUCCEA">Settings</a><a class="xeDNfc" href="https://policies.google.com/privacy?hl=en&amp;fg=1">Privacy</a><a class="xeDNfc" href="https://policies.google.com/terms?hl=en&amp;fg=1">Terms</a><a class="xeDNfc" href="/setprefs?hl=en&amp;prev=https://www.google.com/search?q%3Dsite:walmart.com%2Bbooks%26pccc%3D1&amp;sig=0_qzXVUhHI_4Rt2QyFgvU92nnd4UY%3D&amp;cs=2&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQjcAJCEE">Dark theme: Off</a></div></div> </footer><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var hl='en';(function(){
+var f=this||self,g=function(a){return a};var h,k=function(){if(void 0===h){var a=null,b=f.trustedTypes;if(b&&b.createPolicy){try{a=b.createPolicy("goog#html",{createHTML:g,createScript:g,createScriptURL:g})}catch(c){f.console&&f.console.error(c.message)}h=a}else h=a}return h};var p=function(a,b){this.h=a===l&&b||"";this.g=m},q=function(a){return a instanceof p&&a.constructor===p&&a.g===m?a.h:"type_error:Const"},m={},l={};var r=function(a){this.g=a};r.prototype.toString=function(){return this.g+""};var t=function(a){return a instanceof r&&a.constructor===r?a.g:"type_error:TrustedResourceUrl"},x=function(){var a={},b=q(new p(l,"/complete/search"));if(!u.test(b))throw Error("e`"+b);var c=b.replace(v,function(e,d){if(!Object.prototype.hasOwnProperty.call(a,d))throw Error("f`"+d+"`"+b+"`"+JSON.stringify(a));e=a[d];return e instanceof p?q(e):encodeURIComponent(String(e))});return w(c)},v=/%{(\w+)}/g,u=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),y=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,z={},w=function(a){var b=k();a=b?b.createScriptURL(a):a;return new r(a,z)},A=function(a,b,c){if(null==c)return b;if("string"===typeof c)return c?a+encodeURIComponent(c):"";for(var e in c)if(Object.prototype.hasOwnProperty.call(c,e)){var d=c[e];d=Array.isArray(d)?d:[d];for(var n=0;n<d.length;n++){var O=d[n];null!=O&&(b||(b=a),b+=(b.length>a.length?"&":"")+encodeURIComponent(e)+"="+encodeURIComponent(String(O)))}}return b};var B={},C=function(a){this.g=a};C.prototype.toString=function(){return this.g.toString()};
+function D(a,b){if(1===a.nodeType){var c=a.tagName;if("SCRIPT"===c||"STYLE"===c)throw Error("g");}a.innerHTML=b instanceof C&&b.constructor===C?b.g:"type_error:SafeHtml"};function E(a){a=null===a?"null":void 0===a?"undefined":a;var b=k();a=b?b.createHTML(a):a;return new C(a,B)};var F=document.querySelector(".l"),G=document.querySelector("#sf"),H=G.querySelector(".sbc"),I=G.querySelector("[type=text]"),J=G.querySelector("[type=submit]"),K=G.querySelector(".sc"),L=G.querySelector(".x"),M=I.value,N=[],P=-1,Q=M,R,S,T;M||(L&&(L.style.display="none"),U(!1));function U(a){if(H.classList.contains("esbc")){var b=H.classList.contains("chsbc"),c=H.classList.contains("rtlsbc");a&&(K.style.display="block",b?(G.style.borderRadius="20px 20px 0 0",K.style.borderBottom="1px solid #DFE1E5",J.style.borderRadius=c?"20px 0 0 0":"0 20px 0 0"):H.style.borderRadius=c?"0 8px 0 0":"8px 0 0 0");a||(K.style.display="none",b?(G.style.borderRadius="20px",K.style.borderBottom="none",J.style.borderRadius=c?"20px 0 0 20px":"0 20px 20px 0"):H.style.borderRadius=c?"0 8px 8px 0":"8px 0 0 8px")}}function V(){G.querySelector("[name=oq]").value=Q;G.querySelector("[name=aqs]").value="heirloom-srp."+(0<=P?P:"")+"."+(0<N.length?"0l"+N.length:"")}
+function W(){R=null;if(S){var a={client:"heirloom-srp",hl:hl,json:"t",callback:"hS",q:S};"undefined"!==typeof ds&&ds&&(a.ds=ds);var b=document;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);b=x();b=y.exec(t(b).toString());var e=b[3]||"";a=w(b[1]+A("?",b[2]||"",a)+A("#",e));c.src=t(a);var d,n;(d=(a=null==(n=(d=(c.ownerDocument&&c.ownerDocument.defaultView||window).document).querySelector)?void 0:n.call(d,"script[nonce]"))?a.nonce||a.getAttribute("nonce")||
+"":"")&&c.setAttribute("nonce",d);document.body.appendChild(c);S=null;R=setTimeout(W,500)}}function X(){for(;K.firstChild;)K.removeChild(K.firstChild);N=[];P=-1;U(!1)}function Y(){var a=K.querySelector(".scs");a&&(a.className="");0<=P?(a=K.childNodes[P],a.className="scs",M=a.textContent):M=Q;I.value=M}I.addEventListener("focus",function(){F&&(F.style.display="none")},!1);I.addEventListener("blur",function(){X();F&&(F.style.display="")},!1);I.addEventListener("keyup",function(a){M=I.value;T=!1;13===a.which?V():27===a.which?(X(),F&&(F.style.display=""),M=Q,I.value=M):40===a.which?(P++,P>=N.length&&(P=-1),Y()):38===a.which?(P--,-1>P&&(P=N.length-1),Y()):(a=M)?(L&&(L.style.display=""),S=a,R||W(),Q=a):(L&&(L.style.display="none"),U(!1),X(),Q="",T=!0)},!1);J.addEventListener("click",V,!1);L.addEventListener("click",function(){I.value="";L.style.display="none";U(!1)},!1);H.addEventListener("click",function(){I.focus()},!1);window.hS=function(a){if(!T){X();0===a[1].length&&U(!1);for(var b=0;b<a[1].length;b++){var c=a[1][b][0],e=document.createElement("div");D(e,E(c));e.addEventListener("mousedown",function(d){d.preventDefault();return!1},!1);c=c.replace(/<\/?b>/g,"");e.addEventListener("click",function(d){return function(){P=d;V();Y();X();G.submit()}}(b),!1);e.addEventListener("mouseover",function(d){return function(){P!==d&&(P=d,Y())}}(b),!1);K.appendChild(e);U(!0);N.push(c)}}};}).call(this);})();(function(){function b(a){for(a=a.target||a.srcElement;a&&"A"!==a.nodeName;)a=a.parentElement;a&&(a.href||"").match(/\/search.*[?&]tbm=isch/)&&(a.href+="&biw="+document.documentElement.clientWidth,a.href+="&bih="+document.documentElement.clientHeight)}document.addEventListener("click",b,!1);document.addEventListener("touchStart",b,!1);}).call(this);</script></div><!-- cctlcm 5 cctlcm --><textarea class="csi" name="csi" style="display:none"></textarea><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var e='ty6HZP6BD8Ss5NoP5sigyAg';var sn='web';var timl=false;(function(){function B(a){if(!a||C(a))return 0;if(!a.getBoundingClientRect)return 1;var c=function(b){return b.getBoundingClientRect()};return D(a,c)?0:J(a,c)}function D(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if("hidden"===b.style.overflow||"G-EXPANDABLE-CONTENT"===b.tagName&&"hidden"===getComputedStyle(b).getPropertyValue("overflow"))break a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}
+function C(a){return"none"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&("hidden"===a.visibility||"0px"===a.height&&"0px"===a.width)):!1}
+function J(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var f=b.width;b=b.height;var g=0;if(0>=b&&0>=f)return g;var q=window.innerHeight||document.documentElement.clientHeight;0>c+b?g=2:c>=q&&(g=4);if(0>a+f||a>=(window.innerWidth||document.documentElement.clientWidth))g|=8;g||(g=1,c+b>q&&(g|=4));return g};var K=e,L=sn,M="undefined"===typeof de?!0:!1!==de,N=[];function O(a,c,b){a="/gen_204?atyp=csi&s="+L+"&t="+a+("&lite=1&ei="+K+"&conn="+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c="&rt=";for(var f in b)a+=""+c+f+"."+b[f],c=",";return a}function P(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return a}function Q(a){window.ping?window.ping(a):(new Image).src=a}
+(function(){for(var a=(new Date).getTime()-window.start,c=P(a),b=0,f=0,g=0,q=document.getElementsByTagName("img"),r=M?"&biw="+window.innerWidth+"&bih="+window.innerHeight:"",E=function(){r+="&ima="+g;c.aft=b;Q(O("aft",r,c))},x=0,R=function(h,t,u){var n=h.src;h.onload=function(){u&&n&&n===h.src||(f=(new Date).getTime()-window.start,t&&++x===g&&(b=f,E()),h.onload=null)}},S=0,d=void 0;d=q[S++];){var v=B(d),p=!!(v&1);p&&++g;var l=d.hasAttribute("data-ilite"),w=d.hasAttribute("data-deferred"),F=d.hasAttribute("data-src")||
+d.hasAttribute("data-lzysrc"),y=!w&&!l&&F;N.push([v,w||l,y,!!(google.ldi&&d.id&&google.ldi[d.id])||l&&F]);l=(v=d.complete&&!w&&!(p&&y))&&Number(d.getAttribute("data-iml"))||0;v&&l?(p&&++x,l&&(d=l-window.start,p&&(b=Math.max(b,d)),f=Math.max(f,d))):R(d,p,w||y)}b||(b=a);f||(f=b);x===g&&E();google.rglh&&google.rglh();window.addEventListener("load",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;timl&&(c.iml=f);var h=window.performance&&window.performance.timing;h&&(c.rqst=
+h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var t=h=0,u=0,n=0,G=0,H=0,T=0,k;k=N[T++];){var m=k[0],z=k[1],I=k[2];k=k[3];var U=0==m,V=m&8,A=m&1;m=!A&&m&4;A&&(z&&!k||++u,I&&++H);z&&(A&&k&&++h,m&&!k&&++t);U||V?I||++G:z||++n}r+="&ime="+u+"&imel="+H+("&imex="+n+"&imeh="+G)+("&imea="+h+"&imeb="+t);Q(O("all",r,c))},0)},!1)})();}).call(this);})();</script><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var e='ty6HZP6BD8Ss5NoP5sigyAg';(function(){var a=e;2===(window.performance&&window.performance.navigation&&window.performance.navigation.type)&&window.ping("/gen_204?ct=backbutton&ei="+a);}).call(this);})();(function(){var b=[function(){google.tick&&google.tick("load","dcl")}];google.dclc=function(a){b.length?b.push(a):a()};function c(){for(var a=b.shift();a;)a(),a=b.shift()}window.addEventListener?(document.addEventListener("DOMContentLoaded",c,!1),window.addEventListener("load",c,!1)):window.attachEvent&&window.attachEvent("onload",c);}).call(this);(function(){
+var b=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}},e=this||self;var g,h;a:{for(var k=["CLOSURE_FLAGS"],l=e,n=0;n<k.length;n++)if(l=l[k[n]],null==l){h=null;break a}h=l}var p=h&&h[610401301];g=null!=p?p:!1;var q,r=e.navigator;q=r?r.userAgentData||null:null;function t(a){return g?q?q.brands.some(function(c){return(c=c.brand)&&-1!=c.indexOf(a)}):!1:!1}function u(a){var c;a:{if(c=e.navigator)if(c=c.userAgent)break a;c=""}return-1!=c.indexOf(a)};function v(){return g?!!q&&0<q.brands.length:!1}function w(){return u("Safari")&&!(x()||(v()?0:u("Coast"))||(v()?0:u("Opera"))||(v()?0:u("Edge"))||(v()?t("Microsoft Edge"):u("Edg/"))||(v()?t("Opera"):u("OPR"))||u("Firefox")||u("FxiOS")||u("Silk")||u("Android"))}function x(){return v()?t("Chromium"):(u("Chrome")||u("CriOS"))&&!(v()?0:u("Edge"))||u("Silk")}function y(){return u("Android")&&!(x()||u("Firefox")||u("FxiOS")||(v()?0:u("Opera"))||u("Silk"))};var z=v()?!1:u("Trident")||u("MSIE");y();x();w();var A=!z&&!w(),D=function(a){if(/-[a-z]/.test("ved"))return null;if(A&&a.dataset){if(y()&&!("ved"in a.dataset))return null;a=a.dataset.ved;return void 0===a?null:a}return a.getAttribute("data-"+"ved".replace(/([A-Z])/g,"-$1").toLowerCase())};var E=[],F=null;function G(a){a=a.target;var c=performance.now(),f=[],H=f.concat,d=E;if(!(d instanceof Array)){var m="undefined"!=typeof Symbol&&Symbol.iterator&&d[Symbol.iterator];if(m)d=m.call(d);else if("number"==typeof d.length)d={next:b(d)};else throw Error("a`"+String(d));for(var B=[];!(m=d.next()).done;)B.push(m.value);d=B}E=H.call(f,d,[c]);if(a&&a instanceof HTMLElement)if(a===F){if(c=4<=E.length)c=5>(E[E.length-1]-E[E.length-4])/1E3;if(c){c=google.getEI(a);a.hasAttribute("data-ved")?f=a?D(a)||"":"":f=(f=
+a.closest("[data-ved]"))?D(f)||"":"";f=f||"";if(a.hasAttribute("jsname"))a=a.getAttribute("jsname");else{var C;a=null==(C=a.closest("[jsname]"))?void 0:C.getAttribute("jsname")}google.log("rcm","&ei="+c+"&ved="+f+"&jsname="+(a||""))}}else F=a,E=[c]}window.document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",G)});}).call(this);window.jsl=window.jsl||{};window.jsl.dh=function(a,b,f){try{var g=document.getElementById(a);if(g)g.innerHTML=b,f&&f();else{var c={id:a,script:String(!!f),milestone:String(google.jslm||0)};google.jsla&&(c.async=google.jsla);var h=a.indexOf("_"),d=0<h?a.substring(0,h):"",k=document.createElement("div");k.innerHTML=b;var e=k.children[0];if(e&&(c.tag=e.tagName,c["class"]=String(e.className||null),c.name=String(e.getAttribute("jsname")),d)){a=[];var l=document.querySelectorAll('[id^="'+d+'_"]');for(b=0;b<l.length;++b)a.push(l[b].id);c.ids=a.join(",")}google.ml(Error(d?"Missing ID with prefix "+d:"Missing ID"),!1,c)}}catch(m){google.ml(m,!0,{"jsl.dh":!0})}};(function(){var x=false;google.jslm=x?2:1;})();(function(){(function(){google.csct={};google.csct.ps='AOvVaw0LNFn36xJloVz_TcMioHfP\x26ust\x3d1686667319283676';})();})();(function(){(function(){google.csct.rd=true;})();})();(function(){(function(){google.csct.rl=true;})();})();google.drty&&google.drty(undefined,true);</script></body>
+
+
+
+
+
+
+
+
+
+
+tag:  0 <header id="hdr"><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){
+var k=this||self,l=function(a){var b=typeof a;return"object"==b&&null!=a||"function"==b},m=function(a,b){function c(){}c.prototype=b.prototype;a.j=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.l=function(d,e,f){for(var g=Array(arguments.length-2),h=2;h<arguments.length;h++)g[h-2]=arguments[h];return b.prototype[e].apply(d,g)}};var n=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if("string"===typeof a)return"string"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c in a&&a[c]===b)return c;return-1};var p=function(a){return"string"==typeof a.className?a.className:a.getAttribute&&a.getAttribute("class")||""},q=function(a,b){"string"==typeof a.className?a.className=b:a.setAttribute&&a.setAttribute("class",b)},r=function(a,b){a.classList?b=a.classList.contains(b):(a=a.classList?a.classList:p(a).match(/\S+/g)||[],b=0<=n(a,b));return b},v=function(){var a=t,b=u;a.classList?a.classList.remove(b):r(a,b)&&q(a,Array.prototype.filter.call(a.classList?a.classList:p(a).match(/\S+/g)||[],function(c){return c!=
+b}).join(" "))};function w(){var a=k.navigator;return a&&(a=a.userAgent)?a:""};var x=function(a){x[" "](a);return a};x[" "]=function(){};var y=-1!=w().indexOf("Gecko")&&!(-1!=w().toLowerCase().indexOf("webkit")&&-1==w().indexOf("Edge"))&&!(-1!=w().indexOf("Trident")||-1!=w().indexOf("MSIE"))&&-1==w().indexOf("Edge");var z=function(a,b){this.type=a;this.target=b};z.prototype.g=function(){};var A=function(){if(!k.addEventListener||!Object.defineProperty)return!1;var a=!1,b=Object.defineProperty({},"passive",{get:function(){a=!0}});try{var c=function(){};k.addEventListener("test",c,b);k.removeEventListener("test",c,b)}catch(d){}return a}();var C=function(a){z.call(this,a?a.type:"");this.relatedTarget=this.target=null;this.button=this.screenY=this.screenX=this.clientY=this.clientX=0;this.key="";this.keyCode=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.state=null;this.pointerId=0;this.pointerType="";this.h=null;if(a){var b=this.type=a.type,c=a.changedTouches&&a.changedTouches.length?a.changedTouches[0]:null;this.target=a.target||a.srcElement;var d=a.relatedTarget;if(d){if(y){a:{try{x(d.nodeName);var e=!0;break a}catch(f){}e=
+!1}e||(d=null)}}else"mouseover"==b?d=a.fromElement:"mouseout"==b&&(d=a.toElement);this.relatedTarget=d;c?(this.clientX=void 0!==c.clientX?c.clientX:c.pageX,this.clientY=void 0!==c.clientY?c.clientY:c.pageY,this.screenX=c.screenX||0,this.screenY=c.screenY||0):(this.clientX=void 0!==a.clientX?a.clientX:a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.key=a.key||"";this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.pointerId=a.pointerId||0;this.pointerType="string"===typeof a.pointerType?a.pointerType:B[a.pointerType]||"";this.state=a.state;this.h=a;a.defaultPrevented&&C.j.g.call(this)}};m(C,z);var B={2:"touch",3:"pen",4:"mouse"};C.prototype.g=function(){C.j.g.call(this);var a=this.h;a.preventDefault?a.preventDefault():a.returnValue=!1};var D="closure_listenable_"+(1E6*Math.random()|0);var E=0;var F=function(a,b,c,d,e){this.listener=a;this.proxy=null;this.src=b;this.type=c;this.capture=!!d;this.h=e;this.key=++E;this.g=this.i=!1},G=function(a){a.g=!0;a.listener=null;a.proxy=null;a.src=null;a.h=null};var H=function(a){this.src=a;this.g={};this.h=0};H.prototype.add=function(a,b,c,d,e){var f=a.toString();a=this.g[f];a||(a=this.g[f]=[],this.h++);var g;a:{for(g=0;g<a.length;++g){var h=a[g];if(!h.g&&h.listener==b&&h.capture==!!d&&h.h==e)break a}g=-1}-1<g?(b=a[g],c||(b.i=!1)):(b=new F(b,this.src,f,!!d,e),b.i=c,a.push(b));return b};var I="closure_lm_"+(1E6*Math.random()|0),J={},K=0,M=function(a,b,c,d,e){if(d&&d.once)return L(a,b,c,d,e);if(Array.isArray(b)){for(var f=0;f<b.length;f++)M(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.g(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!1,d,e)},O=function(a,b,c,d,e,f){if(!b)throw Error("a");var g=l(e)?!!e.capture:!!e,h=P(a);h||(a[I]=h=new H(a));c=h.add(b,c,d,g,f);if(c.proxy)return c;d=Q();c.proxy=d;d.src=a;d.listener=c;if(a.addEventListener)A||(e=g),void 0===e&&(e=!1),a.addEventListener(b.toString(),d,e);else if(a.attachEvent)a.attachEvent(R(b.toString()),d);else if(a.addListener&&a.removeListener)a.addListener(d);else throw Error("b");K++;return c},Q=function(){var a=S,b=function(c){return a.call(b.src,b.listener,c)};return b},L=function(a,b,c,d,e){if(Array.isArray(b)){for(var f=0;f<b.length;f++)L(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.h(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!0,d,e)},T=function(a){if("number"!==typeof a&&a&&!a.g){var b=a.src;if(b&&b[D])b.o(a);else{var c=a.type,d=a.proxy;b.removeEventListener?b.removeEventListener(c,d,a.capture):b.detachEvent?b.detachEvent(R(c),d):b.addListener&&b.removeListener&&b.removeListener(d);K--;if(c=P(b)){d=a.type;if(d in c.g){var e=c.g[d],f=n(e,a),g;(g=0<=f)&&Array.prototype.splice.call(e,f,1);g&&(G(a),0==c.g[d].length&&(delete c.g[d],c.h--))}0==c.h&&(c.src=null,b[I]=null)}else G(a)}}},R=function(a){return a in J?J[a]:J[a]="on"+a},S=function(a,b){if(a.g)a=!0;else{b=new C(b,this);var c=a.listener,d=a.h||a.src;a.i&&T(a);a=c.call(d,b)}return a},P=function(a){a=a[I];return a instanceof H?a:null},U="__closure_events_fn_"+(1E9*Math.random()>>>0),N=function(a){if("function"===typeof a)return a;a[U]||(a[U]=function(b){return a.handleEvent(b)});return a[U]};var u,t=document.documentElement,V;function W(){T(V);V=L(t,"mousedown",function(){v();X()},{capture:!0})}function X(){T(V);V=M(t,"keydown",function(a){if(9===a.keyCode){a=t;var b=u;if(a.classList)a.classList.add(b);else if(!r(a,b)){var c=p(a);q(a,c+(0<c.length?" "+b:b))}W()}})};u="zAoYTe";X();}).call(this);</script><div class="cOl4Id"><a href="/?sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQOwgC"><span class="V6gwVd">G</span><span class="iWkuvd">o</span><span class="cDrQ7">o</span><span class="V6gwVd">g</span><span class="ntlR9">l</span><span class="iWkuvd tJ3Myc">e</span></a></div><div class="bz1lBb"><form class="Pg70bf" id="sf"><input name="ie" type="hidden" value="ISO-8859-1"/><div class="H0PQec"><div class="sbc esbc"><input autocapitalize="none" autocomplete="off" class="noHIxc" name="q" spellcheck="false" type="text" value="site:walmart.com books"/><input name="oq" type="hidden"/><input name="aqs" type="hidden"/><div class="x">×</div><div class="sc"></div></div></div><button id="qdClwb" type="submit"></button></form></div><noscript><meta content="0;url=/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ty6HZP6BD8Ss5NoP5sigyAg" http-equiv="refresh"/><style>table,div,span,p{display:none}</style><div style="display:block">Please click <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ty6HZP6BD8Ss5NoP5sigyAg">here</a> if you are not redirected within a few seconds.</div></noscript></header>
+
+
+
+
+
+
+
+
+tagger 0  in tag 1 <script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){
+var k=this||self,l=function(a){var b=typeof a;return"object"==b&&null!=a||"function"==b},m=function(a,b){function c(){}c.prototype=b.prototype;a.j=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.l=function(d,e,f){for(var g=Array(arguments.length-2),h=2;h<arguments.length;h++)g[h-2]=arguments[h];return b.prototype[e].apply(d,g)}};var n=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if("string"===typeof a)return"string"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c in a&&a[c]===b)return c;return-1};var p=function(a){return"string"==typeof a.className?a.className:a.getAttribute&&a.getAttribute("class")||""},q=function(a,b){"string"==typeof a.className?a.className=b:a.setAttribute&&a.setAttribute("class",b)},r=function(a,b){a.classList?b=a.classList.contains(b):(a=a.classList?a.classList:p(a).match(/\S+/g)||[],b=0<=n(a,b));return b},v=function(){var a=t,b=u;a.classList?a.classList.remove(b):r(a,b)&&q(a,Array.prototype.filter.call(a.classList?a.classList:p(a).match(/\S+/g)||[],function(c){return c!=
+b}).join(" "))};function w(){var a=k.navigator;return a&&(a=a.userAgent)?a:""};var x=function(a){x[" "](a);return a};x[" "]=function(){};var y=-1!=w().indexOf("Gecko")&&!(-1!=w().toLowerCase().indexOf("webkit")&&-1==w().indexOf("Edge"))&&!(-1!=w().indexOf("Trident")||-1!=w().indexOf("MSIE"))&&-1==w().indexOf("Edge");var z=function(a,b){this.type=a;this.target=b};z.prototype.g=function(){};var A=function(){if(!k.addEventListener||!Object.defineProperty)return!1;var a=!1,b=Object.defineProperty({},"passive",{get:function(){a=!0}});try{var c=function(){};k.addEventListener("test",c,b);k.removeEventListener("test",c,b)}catch(d){}return a}();var C=function(a){z.call(this,a?a.type:"");this.relatedTarget=this.target=null;this.button=this.screenY=this.screenX=this.clientY=this.clientX=0;this.key="";this.keyCode=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.state=null;this.pointerId=0;this.pointerType="";this.h=null;if(a){var b=this.type=a.type,c=a.changedTouches&&a.changedTouches.length?a.changedTouches[0]:null;this.target=a.target||a.srcElement;var d=a.relatedTarget;if(d){if(y){a:{try{x(d.nodeName);var e=!0;break a}catch(f){}e=
+!1}e||(d=null)}}else"mouseover"==b?d=a.fromElement:"mouseout"==b&&(d=a.toElement);this.relatedTarget=d;c?(this.clientX=void 0!==c.clientX?c.clientX:c.pageX,this.clientY=void 0!==c.clientY?c.clientY:c.pageY,this.screenX=c.screenX||0,this.screenY=c.screenY||0):(this.clientX=void 0!==a.clientX?a.clientX:a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.key=a.key||"";this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.pointerId=a.pointerId||0;this.pointerType="string"===typeof a.pointerType?a.pointerType:B[a.pointerType]||"";this.state=a.state;this.h=a;a.defaultPrevented&&C.j.g.call(this)}};m(C,z);var B={2:"touch",3:"pen",4:"mouse"};C.prototype.g=function(){C.j.g.call(this);var a=this.h;a.preventDefault?a.preventDefault():a.returnValue=!1};var D="closure_listenable_"+(1E6*Math.random()|0);var E=0;var F=function(a,b,c,d,e){this.listener=a;this.proxy=null;this.src=b;this.type=c;this.capture=!!d;this.h=e;this.key=++E;this.g=this.i=!1},G=function(a){a.g=!0;a.listener=null;a.proxy=null;a.src=null;a.h=null};var H=function(a){this.src=a;this.g={};this.h=0};H.prototype.add=function(a,b,c,d,e){var f=a.toString();a=this.g[f];a||(a=this.g[f]=[],this.h++);var g;a:{for(g=0;g<a.length;++g){var h=a[g];if(!h.g&&h.listener==b&&h.capture==!!d&&h.h==e)break a}g=-1}-1<g?(b=a[g],c||(b.i=!1)):(b=new F(b,this.src,f,!!d,e),b.i=c,a.push(b));return b};var I="closure_lm_"+(1E6*Math.random()|0),J={},K=0,M=function(a,b,c,d,e){if(d&&d.once)return L(a,b,c,d,e);if(Array.isArray(b)){for(var f=0;f<b.length;f++)M(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.g(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!1,d,e)},O=function(a,b,c,d,e,f){if(!b)throw Error("a");var g=l(e)?!!e.capture:!!e,h=P(a);h||(a[I]=h=new H(a));c=h.add(b,c,d,g,f);if(c.proxy)return c;d=Q();c.proxy=d;d.src=a;d.listener=c;if(a.addEventListener)A||(e=g),void 0===e&&(e=!1),a.addEventListener(b.toString(),d,e);else if(a.attachEvent)a.attachEvent(R(b.toString()),d);else if(a.addListener&&a.removeListener)a.addListener(d);else throw Error("b");K++;return c},Q=function(){var a=S,b=function(c){return a.call(b.src,b.listener,c)};return b},L=function(a,b,c,d,e){if(Array.isArray(b)){for(var f=0;f<b.length;f++)L(a,b[f],c,d,e);return null}c=N(c);return a&&a[D]?a.h(b,c,l(d)?!!d.capture:!!d,e):O(a,b,c,!0,d,e)},T=function(a){if("number"!==typeof a&&a&&!a.g){var b=a.src;if(b&&b[D])b.o(a);else{var c=a.type,d=a.proxy;b.removeEventListener?b.removeEventListener(c,d,a.capture):b.detachEvent?b.detachEvent(R(c),d):b.addListener&&b.removeListener&&b.removeListener(d);K--;if(c=P(b)){d=a.type;if(d in c.g){var e=c.g[d],f=n(e,a),g;(g=0<=f)&&Array.prototype.splice.call(e,f,1);g&&(G(a),0==c.g[d].length&&(delete c.g[d],c.h--))}0==c.h&&(c.src=null,b[I]=null)}else G(a)}}},R=function(a){return a in J?J[a]:J[a]="on"+a},S=function(a,b){if(a.g)a=!0;else{b=new C(b,this);var c=a.listener,d=a.h||a.src;a.i&&T(a);a=c.call(d,b)}return a},P=function(a){a=a[I];return a instanceof H?a:null},U="__closure_events_fn_"+(1E9*Math.random()>>>0),N=function(a){if("function"===typeof a)return a;a[U]||(a[U]=function(b){return a.handleEvent(b)});return a[U]};var u,t=document.documentElement,V;function W(){T(V);V=L(t,"mousedown",function(){v();X()},{capture:!0})}function X(){T(V);V=M(t,"keydown",function(a){if(9===a.keyCode){a=t;var b=u;if(a.classList)a.classList.add(b);else if(!r(a,b)){var c=p(a);q(a,c+(0<c.length?" "+b:b))}W()}})};u="zAoYTe";X();}).call(this);</script>
+
+
+
+
+
+
+
+
+
+tagger 1  in tag 1 <div class="cOl4Id"><a href="/?sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQOwgC"><span class="V6gwVd">G</span><span class="iWkuvd">o</span><span class="cDrQ7">o</span><span class="V6gwVd">g</span><span class="ntlR9">l</span><span class="iWkuvd tJ3Myc">e</span></a></div>
+
+
+
+
+
+
+
+
+
+tagger 2  in tag 1 <div class="bz1lBb"><form class="Pg70bf" id="sf"><input name="ie" type="hidden" value="ISO-8859-1"/><div class="H0PQec"><div class="sbc esbc"><input autocapitalize="none" autocomplete="off" class="noHIxc" name="q" spellcheck="false" type="text" value="site:walmart.com books"/><input name="oq" type="hidden"/><input name="aqs" type="hidden"/><div class="x">×</div><div class="sc"></div></div></div><button id="qdClwb" type="submit"></button></form></div>
+
+
+
+
+
+
+
+tagger 3  in tag 1 <noscript><meta content="0;url=/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ty6HZP6BD8Ss5NoP5sigyAg" http-equiv="refresh"/><style>table,div,span,p{display:none}</style><div style="display:block">Please click <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;gbv=1&amp;sei=ty6HZP6BD8Ss5NoP5sigyAg">here</a> if you are not redirected within a few seconds.</div></noscript>
+
+
+
+
+
+
+
+
+
+
+tag:  1 <div id="main"><div><div class="KP7LCb"> <div class="bRsWnc"> <div class="N6RWV"> <div class="Pg70bf Uv67qb"> <span class="OXXup">All</span><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUIBigB">Books</a><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUIBygC">Images</a><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICCgD">Shopping</a> <a href="https://maps.google.com/maps?q=site:walmart.com+books&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICSgE">Maps</a> <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICigF">Videos</a> <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICygG">News</a> <div class="FElbsf"><a href="/advanced_search" id="st-toggle" role="button" style="white-space:nowrap">Search tools</a></div> </div> </div> </div> </div><div class="Pg70bf wEsjbd Gx5Zad xpd EtOod pkphOe" id="st-card" style="display:none"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style><div class="Xj2aue"><div class="coPU8c"><div class="RnNGze"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{background:#fff;display:none;position:absolute;border:1px solid #dadce0;box-shadow:0 2px 4px rgba(0,0,0,.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090 transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active .OmTIzf{border-color:#4285f4 transparent}</style><div class="TWMOUc">Any time</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl a{color:#70757a;text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style><li class="yNFsl SkUj4c">Any time</li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDQ">Past hour</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDg">Past 24 hours</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDw">Past week</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEA">Past month</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEQ">Past year</a></li></ul></div><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><div class="TWMOUc">All results</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><li class="yNFsl SkUj4c">All results</li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEw">Verbatim</a></li></ul></div></div></div></div><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var a=document.getElementById("st-toggle"),b=document.getElementById("st-card");a&&b&&a.addEventListener("click",function(c){b.style.display=b.style.display?"":"none";c.preventDefault()},!1);}).call(this);</script></div></div><style>.Gx5Zad{background-color:#fff;margin-bottom:30px;box-shadow:0 0 0 1px #dfe1e5;border-radius:8px}.pkphOe{font-size:14px;line-height:22px;}.EtOod>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.EtOod.avPKgf>*:last-child{border-bottom-left-radius:4px}.EtOod>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.fP1Qef{background:transparent !important;box-shadow:none !important;border:none !important}.Gx5Zad.fP1Qef{margin-top:-12px;margin-bottom:18px}.rl7ilb{display:block;clear:both}.egMi0{margin-bottom:-19px}.kCrYT{padding:12px 16px 12px}a.fdYsqf{color:#4b11a8}.sCuL3{position:absolute;width:100%;top:0;left:0;padding-top:1px;margin-bottom:-1px}.j039Wc{padding-top:28px;margin-bottom:-1px}.DnJfK{position:relative}.l97dzf{font-weight:400}.zBAuLc{line-height:normal;margin:0;padding:0}.BNeawe{white-space:pre-line;word-wrap:break-word}.vvjwJb{color:#1a0dab;font-size:20px;line-height:26px}a:visited .vvjwJb,.vvjwJb a:visited{color:#4b11a8}.vvjwJb.HrGdeb{color:#fff}a:visited .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:22px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#202124}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.Ap5OSd{padding-bottom:12px}.s3v9rd{font-size:14px;line-height:22px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.r0bn4c.tr0dw{color:rgba(255,255,255,.70)}.r0bn4c.rQMQod{color:#70757a}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef span{text-align:center}.EYqSq{margin:6px 4px 9px 0;border-radius:100%;display:inline-block;height:10px;vertical-align:middle;width:10px}.dfB0uf{color:#3c4043;font-weight:bold}</style><div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAEQAg" href="/url?q=https://www.walmart.com/cp/books/3920&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAEQAg&amp;usg=AOvVaw0S4Ts9iSk7JVjGmotRePQV" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Books at Walmart.com and browse categories like Young Adult Books, Children's Books, Mystery Books, Adult Coloring Books and Cook Books.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAkQAg" href="/url?q=https://www.walmart.com/browse/literature-fiction-books/3920_582105&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAkQAg&amp;usg=AOvVaw3SHy1pyqv5hOO7fjUxADtm" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Literature &amp; Fiction Books in Books(1000+) - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Literature &amp; Fiction Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Fiction Novels; Romance Books; Contemporary Romance Books; Science Fiction &amp; Fantasy Books; Mystery, Thriller &amp; Suspense Books; Literary Novels</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAUQAg" href="/url?q=https://www.walmart.com/browse/books/3920&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAUQAg&amp;usg=AOvVaw3mb50N2fRRaHO9F8i7Jju0" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › browse › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">All Books; Children's &amp; Kids' Books; Literature &amp; Fiction Books; Fiction Novels; Religion &amp; Spirituality Books; Christian Books &amp; Bibles; Animal Kids' Books</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAcQAg" href="/url?q=https://www.walmart.com/browse/walmart-books-best-sellers/3920_1057224&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAcQAg&amp;usg=AOvVaw2ncsLNR_wG7rpbtJ4ATgyC" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Walmart Books Best Sellers in Books(773)</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">We have a Top 200 Books section that features top sellers in all book categories. You can also browse books by type: adult fiction, adult non-fiction, easy ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAYQAg" href="/url?q=https://www.walmart.com/cp/childrens-kids-books/582053&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAYQAg&amp;usg=AOvVaw2KOSeQ-YSfkKHYURMbNuNj" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Children's &amp; Kids' Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › childrens-kids-books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Percy Jackson &amp; the Olympians: Percy Jackson and the Olympians, Book Five the Last Olympian (Percy Jackson and the Olympians, Book Five) (Series #5) ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAgQAg" href="/url?q=https://www.walmart.com/browse/books/movies-books-and-music-free-2-day-shipping/3920/c2hlbGZfaWQ6Njk1Ngieie&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAgQAg&amp;usg=AOvVaw2hvg3KYBwzPpgUD2CL7cKY" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › books › movies-books-and-music-free-2-day-shipping</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Books at Walmart and save. ... Bright &amp; Early Board Books(tm): Are You My Mother? (Board book). 1724.5 out of 5 Stars. 172 reviews. Save with.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAIQAg" href="/url?q=https://www.walmart.com/tp/paperback-books&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAIQAg&amp;usg=AOvVaw3L6paVMZZ3-wQ_Agyaanzx" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Paperback Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Paperback Books at Walmart.com. Save money. Live better. ... Disney Dreams Collection Thomas Kinkade Studios Coloring Book (Paperback).</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAAQAg" href="/url?q=https://www.walmart.com/browse/books/top-100-books/3920_1057224_1615275&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAAQAg&amp;usg=AOvVaw26ZEDO-CdzXtQgCsB9b8_F" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Top 100 Books in Walmart Books Best Sellers</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers › Top 100 Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Top 100 Books in Walmart Books Best Sellers(219) ; The Fallen. The Fallen. $15.76 ; The Baseball 100 (Hardcover). The Baseball 100 (Hardcover). $22.40 ; End Game.</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAMQAg" href="/url?q=https://www.walmart.com/browse/books/biographies-memoirs/3920_5196470&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAMQAg&amp;usg=AOvVaw0rt413jVS00traIj0zc6fH" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Biographies &amp; Memoirs in Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Biographies &amp; Memoirs</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Biographies &amp; Memoirs in Books(1000+) ; Spare by Prince Harry (Hardcover) · Spare by Prince Harry (Hardcover). $19.05 ; The Watchmaker's Daughter : The True Story ...</div></div></div></div></div></div></div></div><div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAQQAg" href="/url?q=https://photos3.walmart.com/category/113-photo-books&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAQQAg&amp;usg=AOvVaw3L10C9lYAdRglXyVvZ4b5B" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Photo Books | Walmart Photo</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">photos3.walmart.com › Photo Books › Custom Photo Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div class="v9i61e"><div class="BNeawe s3v9rd AP7Wnd"><span class="r0bn4c rQMQod">$7.96 to $64.96</span> <span class="r0bn4c rQMQod">In stock</span></div></div><div><div class="BNeawe s3v9rd AP7Wnd">These affordable photo books are bound professionally and include premium quality pages. Create your own photo book quickly and easily online after you've ...</div></div></div></div></div></div></div></div><footer> <div> <div class="Gx5Zad xpd EtOod pkphOe BmP5tf"><div class="nMymef MUxGbd lyLwlc"><a aria-label="Next page" class="nBDE1b G5eFlf" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;ei=ty6HZP6BD8Ss5NoP5sigyAg&amp;start=10&amp;sa=N">Next &gt;</a></div></div> </div> <div id="EOlPnc"><div class="Srfpq"><div><span class="EYqSq unknown_loc"></span><span class="dfB0uf">Chicago IL, Illinois</span></div><span>From your IP address</span><span> - </span><a aria-label="Learn more about this location" href="/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQty4IPg&amp;usg=AOvVaw0ZzTnsG8eNZ2-q0I-AbDcy" tabindex="0">Learn more</a></div><div><a href="/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dsite:walmart.com%252Bbooks%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQxs8CCD8&amp;usg=AOvVaw3xIlAonAGowVyBfjOiNO5_">Sign in</a></div><div><a class="xeDNfc" href="https://www.google.com/preferences?hl=en&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ5fUCCEA">Settings</a><a class="xeDNfc" href="https://policies.google.com/privacy?hl=en&amp;fg=1">Privacy</a><a class="xeDNfc" href="https://policies.google.com/terms?hl=en&amp;fg=1">Terms</a><a class="xeDNfc" href="/setprefs?hl=en&amp;prev=https://www.google.com/search?q%3Dsite:walmart.com%2Bbooks%26pccc%3D1&amp;sig=0_qzXVUhHI_4Rt2QyFgvU92nnd4UY%3D&amp;cs=2&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQjcAJCEE">Dark theme: Off</a></div></div> </footer><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var hl='en';(function(){
+var f=this||self,g=function(a){return a};var h,k=function(){if(void 0===h){var a=null,b=f.trustedTypes;if(b&&b.createPolicy){try{a=b.createPolicy("goog#html",{createHTML:g,createScript:g,createScriptURL:g})}catch(c){f.console&&f.console.error(c.message)}h=a}else h=a}return h};var p=function(a,b){this.h=a===l&&b||"";this.g=m},q=function(a){return a instanceof p&&a.constructor===p&&a.g===m?a.h:"type_error:Const"},m={},l={};var r=function(a){this.g=a};r.prototype.toString=function(){return this.g+""};var t=function(a){return a instanceof r&&a.constructor===r?a.g:"type_error:TrustedResourceUrl"},x=function(){var a={},b=q(new p(l,"/complete/search"));if(!u.test(b))throw Error("e`"+b);var c=b.replace(v,function(e,d){if(!Object.prototype.hasOwnProperty.call(a,d))throw Error("f`"+d+"`"+b+"`"+JSON.stringify(a));e=a[d];return e instanceof p?q(e):encodeURIComponent(String(e))});return w(c)},v=/%{(\w+)}/g,u=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),y=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,z={},w=function(a){var b=k();a=b?b.createScriptURL(a):a;return new r(a,z)},A=function(a,b,c){if(null==c)return b;if("string"===typeof c)return c?a+encodeURIComponent(c):"";for(var e in c)if(Object.prototype.hasOwnProperty.call(c,e)){var d=c[e];d=Array.isArray(d)?d:[d];for(var n=0;n<d.length;n++){var O=d[n];null!=O&&(b||(b=a),b+=(b.length>a.length?"&":"")+encodeURIComponent(e)+"="+encodeURIComponent(String(O)))}}return b};var B={},C=function(a){this.g=a};C.prototype.toString=function(){return this.g.toString()};
+function D(a,b){if(1===a.nodeType){var c=a.tagName;if("SCRIPT"===c||"STYLE"===c)throw Error("g");}a.innerHTML=b instanceof C&&b.constructor===C?b.g:"type_error:SafeHtml"};function E(a){a=null===a?"null":void 0===a?"undefined":a;var b=k();a=b?b.createHTML(a):a;return new C(a,B)};var F=document.querySelector(".l"),G=document.querySelector("#sf"),H=G.querySelector(".sbc"),I=G.querySelector("[type=text]"),J=G.querySelector("[type=submit]"),K=G.querySelector(".sc"),L=G.querySelector(".x"),M=I.value,N=[],P=-1,Q=M,R,S,T;M||(L&&(L.style.display="none"),U(!1));function U(a){if(H.classList.contains("esbc")){var b=H.classList.contains("chsbc"),c=H.classList.contains("rtlsbc");a&&(K.style.display="block",b?(G.style.borderRadius="20px 20px 0 0",K.style.borderBottom="1px solid #DFE1E5",J.style.borderRadius=c?"20px 0 0 0":"0 20px 0 0"):H.style.borderRadius=c?"0 8px 0 0":"8px 0 0 0");a||(K.style.display="none",b?(G.style.borderRadius="20px",K.style.borderBottom="none",J.style.borderRadius=c?"20px 0 0 20px":"0 20px 20px 0"):H.style.borderRadius=c?"0 8px 8px 0":"8px 0 0 8px")}}function V(){G.querySelector("[name=oq]").value=Q;G.querySelector("[name=aqs]").value="heirloom-srp."+(0<=P?P:"")+"."+(0<N.length?"0l"+N.length:"")}
+function W(){R=null;if(S){var a={client:"heirloom-srp",hl:hl,json:"t",callback:"hS",q:S};"undefined"!==typeof ds&&ds&&(a.ds=ds);var b=document;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);b=x();b=y.exec(t(b).toString());var e=b[3]||"";a=w(b[1]+A("?",b[2]||"",a)+A("#",e));c.src=t(a);var d,n;(d=(a=null==(n=(d=(c.ownerDocument&&c.ownerDocument.defaultView||window).document).querySelector)?void 0:n.call(d,"script[nonce]"))?a.nonce||a.getAttribute("nonce")||
+"":"")&&c.setAttribute("nonce",d);document.body.appendChild(c);S=null;R=setTimeout(W,500)}}function X(){for(;K.firstChild;)K.removeChild(K.firstChild);N=[];P=-1;U(!1)}function Y(){var a=K.querySelector(".scs");a&&(a.className="");0<=P?(a=K.childNodes[P],a.className="scs",M=a.textContent):M=Q;I.value=M}I.addEventListener("focus",function(){F&&(F.style.display="none")},!1);I.addEventListener("blur",function(){X();F&&(F.style.display="")},!1);I.addEventListener("keyup",function(a){M=I.value;T=!1;13===a.which?V():27===a.which?(X(),F&&(F.style.display=""),M=Q,I.value=M):40===a.which?(P++,P>=N.length&&(P=-1),Y()):38===a.which?(P--,-1>P&&(P=N.length-1),Y()):(a=M)?(L&&(L.style.display=""),S=a,R||W(),Q=a):(L&&(L.style.display="none"),U(!1),X(),Q="",T=!0)},!1);J.addEventListener("click",V,!1);L.addEventListener("click",function(){I.value="";L.style.display="none";U(!1)},!1);H.addEventListener("click",function(){I.focus()},!1);window.hS=function(a){if(!T){X();0===a[1].length&&U(!1);for(var b=0;b<a[1].length;b++){var c=a[1][b][0],e=document.createElement("div");D(e,E(c));e.addEventListener("mousedown",function(d){d.preventDefault();return!1},!1);c=c.replace(/<\/?b>/g,"");e.addEventListener("click",function(d){return function(){P=d;V();Y();X();G.submit()}}(b),!1);e.addEventListener("mouseover",function(d){return function(){P!==d&&(P=d,Y())}}(b),!1);K.appendChild(e);U(!0);N.push(c)}}};}).call(this);})();(function(){function b(a){for(a=a.target||a.srcElement;a&&"A"!==a.nodeName;)a=a.parentElement;a&&(a.href||"").match(/\/search.*[?&]tbm=isch/)&&(a.href+="&biw="+document.documentElement.clientWidth,a.href+="&bih="+document.documentElement.clientHeight)}document.addEventListener("click",b,!1);document.addEventListener("touchStart",b,!1);}).call(this);</script></div>
+
+
+
+
+
+
+
+
+
+tagger 4  in tag 2 <div><div class="KP7LCb"> <div class="bRsWnc"> <div class="N6RWV"> <div class="Pg70bf Uv67qb"> <span class="OXXup">All</span><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUIBigB">Books</a><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUIBygC">Images</a><a class="eZt8xd" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICCgD">Shopping</a> <a href="https://maps.google.com/maps?q=site:walmart.com+books&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICSgE">Maps</a> <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICigF">Videos</a> <a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ_AUICygG">News</a> <div class="FElbsf"><a href="/advanced_search" id="st-toggle" role="button" style="white-space:nowrap">Search tools</a></div> </div> </div> </div> </div><div class="Pg70bf wEsjbd Gx5Zad xpd EtOod pkphOe" id="st-card" style="display:none"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style><div class="Xj2aue"><div class="coPU8c"><div class="RnNGze"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{background:#fff;display:none;position:absolute;border:1px solid #dadce0;box-shadow:0 2px 4px rgba(0,0,0,.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090 transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active .OmTIzf{border-color:#4285f4 transparent}</style><div class="TWMOUc">Any time</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl a{color:#70757a;text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style><li class="yNFsl SkUj4c">Any time</li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDQ">Past hour</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDg">Past 24 hours</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIDw">Past week</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEA">Past month</a></li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEQ">Past year</a></li></ul></div><div class="PA9J5"><div class="RXaOfd" role="button" tabindex="0"><div class="TWMOUc">All results</div><span class="OmTIzf"></span></div><ul class="sa1toc ozatM"><li class="yNFsl SkUj4c">All results</li><li class="yNFsl"><a href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQpwUIEw">Verbatim</a></li></ul></div></div></div></div><script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var a=document.getElementById("st-toggle"),b=document.getElementById("st-card");a&&b&&a.addEventListener("click",function(c){b.style.display=b.style.display?"":"none";c.preventDefault()},!1);}).call(this);</script></div></div>
+
+
+
+
+
+
+
+
+
+
+tagger 5  in tag 2 <style>.Gx5Zad{background-color:#fff;margin-bottom:30px;box-shadow:0 0 0 1px #dfe1e5;border-radius:8px}.pkphOe{font-size:14px;line-height:22px;}.EtOod>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.EtOod.avPKgf>*:last-child{border-bottom-left-radius:4px}.EtOod>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.EtOod>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.fP1Qef{background:transparent !important;box-shadow:none !important;border:none !important}.Gx5Zad.fP1Qef{margin-top:-12px;margin-bottom:18px}.rl7ilb{display:block;clear:both}.egMi0{margin-bottom:-19px}.kCrYT{padding:12px 16px 12px}a.fdYsqf{color:#4b11a8}.sCuL3{position:absolute;width:100%;top:0;left:0;padding-top:1px;margin-bottom:-1px}.j039Wc{padding-top:28px;margin-bottom:-1px}.DnJfK{position:relative}.l97dzf{font-weight:400}.zBAuLc{line-height:normal;margin:0;padding:0}.BNeawe{white-space:pre-line;word-wrap:break-word}.vvjwJb{color:#1a0dab;font-size:20px;line-height:26px}a:visited .vvjwJb,.vvjwJb a:visited{color:#4b11a8}.vvjwJb.HrGdeb{color:#fff}a:visited .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:22px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#202124}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.Ap5OSd{padding-bottom:12px}.s3v9rd{font-size:14px;line-height:22px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.r0bn4c.tr0dw{color:rgba(255,255,255,.70)}.r0bn4c.rQMQod{color:#70757a}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef span{text-align:center}.EYqSq{margin:6px 4px 9px 0;border-radius:100%;display:inline-block;height:10px;vertical-align:middle;width:10px}.dfB0uf{color:#3c4043;font-weight:bold}</style>
+
+
+
+
+
+
+
+
+
+tagger 6  in tag 2 <div></div>
+
+
+
+
+
+
+
+
+tagger 7  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAEQAg" href="/url?q=https://www.walmart.com/cp/books/3920&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAEQAg&amp;usg=AOvVaw0S4Ts9iSk7JVjGmotRePQV" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Books at Walmart.com and browse categories like Young Adult Books, Children's Books, Mystery Books, Adult Coloring Books and Cook Books.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+tagger 8  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAkQAg" href="/url?q=https://www.walmart.com/browse/literature-fiction-books/3920_582105&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAkQAg&amp;usg=AOvVaw3SHy1pyqv5hOO7fjUxADtm" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Literature &amp; Fiction Books in Books(1000+) - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Literature &amp; Fiction Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Fiction Novels; Romance Books; Contemporary Romance Books; Science Fiction &amp; Fantasy Books; Mystery, Thriller &amp; Suspense Books; Literary Novels</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+tagger 9  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAUQAg" href="/url?q=https://www.walmart.com/browse/books/3920&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAUQAg&amp;usg=AOvVaw3mb50N2fRRaHO9F8i7Jju0" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › browse › books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">All Books; Children's &amp; Kids' Books; Literature &amp; Fiction Books; Fiction Novels; Religion &amp; Spirituality Books; Christian Books &amp; Bibles; Animal Kids' Books</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+tagger 10  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAcQAg" href="/url?q=https://www.walmart.com/browse/walmart-books-best-sellers/3920_1057224&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAcQAg&amp;usg=AOvVaw2ncsLNR_wG7rpbtJ4ATgyC" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Walmart Books Best Sellers in Books(773)</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">We have a Top 200 Books section that features top sellers in all book categories. You can also browse books by type: adult fiction, adult non-fiction, easy ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+tagger 11  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAYQAg" href="/url?q=https://www.walmart.com/cp/childrens-kids-books/582053&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAYQAg&amp;usg=AOvVaw2KOSeQ-YSfkKHYURMbNuNj" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Children's &amp; Kids' Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › childrens-kids-books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Percy Jackson &amp; the Olympians: Percy Jackson and the Olympians, Book Five the Last Olympian (Percy Jackson and the Olympians, Book Five) (Series #5) ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+tagger 12  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAgQAg" href="/url?q=https://www.walmart.com/browse/books/movies-books-and-music-free-2-day-shipping/3920/c2hlbGZfaWQ6Njk1Ngieie&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAgQAg&amp;usg=AOvVaw2hvg3KYBwzPpgUD2CL7cKY" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › books › movies-books-and-music-free-2-day-shipping</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Books at Walmart and save. ... Bright &amp; Early Board Books(tm): Are You My Mother? (Board book). 1724.5 out of 5 Stars. 172 reviews. Save with.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+tagger 13  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAIQAg" href="/url?q=https://www.walmart.com/tp/paperback-books&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAIQAg&amp;usg=AOvVaw3L6paVMZZ3-wQ_Agyaanzx" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Paperback Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Shop for Paperback Books at Walmart.com. Save money. Live better. ... Disney Dreams Collection Thomas Kinkade Studios Coloring Book (Paperback).</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+tagger 14  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAAQAg" href="/url?q=https://www.walmart.com/browse/books/top-100-books/3920_1057224_1615275&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAAQAg&amp;usg=AOvVaw26ZEDO-CdzXtQgCsB9b8_F" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Top 100 Books in Walmart Books Best Sellers</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Walmart Books Best Sellers › Top 100 Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Top 100 Books in Walmart Books Best Sellers(219) ; The Fallen. The Fallen. $15.76 ; The Baseball 100 (Hardcover). The Baseball 100 (Hardcover). $22.40 ; End Game.</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+tagger 15  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAMQAg" href="/url?q=https://www.walmart.com/browse/books/biographies-memoirs/3920_5196470&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAMQAg&amp;usg=AOvVaw0rt413jVS00traIj0zc6fH" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Biographies &amp; Memoirs in Books - Walmart.com</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">www.walmart.com › Books › Biographies &amp; Memoirs</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div><div class="BNeawe s3v9rd AP7Wnd">Biographies &amp; Memoirs in Books(1000+) ; Spare by Prince Harry (Hardcover) · Spare by Prince Harry (Hardcover). $19.05 ; The Watchmaker's Daughter : The True Story ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+tagger 16  in tag 2 <div><div class="Gx5Zad fP1Qef xpd EtOod pkphOe"><div class="egMi0 kCrYT"><a data-ved="2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAQQAg" href="/url?q=https://photos3.walmart.com/category/113-photo-books&amp;sa=U&amp;ved=2ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQFnoECAQQAg&amp;usg=AOvVaw3L10C9lYAdRglXyVvZ4b5B" jsname="ACyKwe"><div class="DnJfK"><div class="j039Wc"><h3 class="zBAuLc l97dzf"><div class="BNeawe vvjwJb AP7Wnd">Photo Books | Walmart Photo</div></h3></div><div class="sCuL3"><div class="BNeawe UPmit AP7Wnd lRVwie">photos3.walmart.com › Photo Books › Custom Photo Books</div></div></div></a></div><div class="kCrYT"><div><div class="BNeawe s3v9rd AP7Wnd"><div><div class="v9i61e"><div class="BNeawe s3v9rd AP7Wnd"><span class="r0bn4c rQMQod">$7.96 to $64.96</span> <span class="r0bn4c rQMQod">In stock</span></div></div><div><div class="BNeawe s3v9rd AP7Wnd">These affordable photo books are bound professionally and include premium quality pages. Create your own photo book quickly and easily online after you've ...</div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+tagger 17  in tag 2 <footer> <div> <div class="Gx5Zad xpd EtOod pkphOe BmP5tf"><div class="nMymef MUxGbd lyLwlc"><a aria-label="Next page" class="nBDE1b G5eFlf" href="/search?q=site:walmart.com+books&amp;ie=UTF-8&amp;ei=ty6HZP6BD8Ss5NoP5sigyAg&amp;start=10&amp;sa=N">Next &gt;</a></div></div> </div> <div id="EOlPnc"><div class="Srfpq"><div><span class="EYqSq unknown_loc"></span><span class="dfB0uf">Chicago IL, Illinois</span></div><span>From your IP address</span><span> - </span><a aria-label="Learn more about this location" href="/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQty4IPg&amp;usg=AOvVaw0ZzTnsG8eNZ2-q0I-AbDcy" tabindex="0">Learn more</a></div><div><a href="/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dsite:walmart.com%252Bbooks%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQxs8CCD8&amp;usg=AOvVaw3xIlAonAGowVyBfjOiNO5_">Sign in</a></div><div><a class="xeDNfc" href="https://www.google.com/preferences?hl=en&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQ5fUCCEA">Settings</a><a class="xeDNfc" href="https://policies.google.com/privacy?hl=en&amp;fg=1">Privacy</a><a class="xeDNfc" href="https://policies.google.com/terms?hl=en&amp;fg=1">Terms</a><a class="xeDNfc" href="/setprefs?hl=en&amp;prev=https://www.google.com/search?q%3Dsite:walmart.com%2Bbooks%26pccc%3D1&amp;sig=0_qzXVUhHI_4Rt2QyFgvU92nnd4UY%3D&amp;cs=2&amp;sa=X&amp;ved=0ahUKEwi-uc7E-73_AhVEFlkFHWYkCIkQjcAJCEE">Dark theme: Off</a></div></div> </footer>
+
+
+
+
+
+
+
+tagger 18  in tag 2 <script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var hl='en';(function(){
+var f=this||self,g=function(a){return a};var h,k=function(){if(void 0===h){var a=null,b=f.trustedTypes;if(b&&b.createPolicy){try{a=b.createPolicy("goog#html",{createHTML:g,createScript:g,createScriptURL:g})}catch(c){f.console&&f.console.error(c.message)}h=a}else h=a}return h};var p=function(a,b){this.h=a===l&&b||"";this.g=m},q=function(a){return a instanceof p&&a.constructor===p&&a.g===m?a.h:"type_error:Const"},m={},l={};var r=function(a){this.g=a};r.prototype.toString=function(){return this.g+""};var t=function(a){return a instanceof r&&a.constructor===r?a.g:"type_error:TrustedResourceUrl"},x=function(){var a={},b=q(new p(l,"/complete/search"));if(!u.test(b))throw Error("e`"+b);var c=b.replace(v,function(e,d){if(!Object.prototype.hasOwnProperty.call(a,d))throw Error("f`"+d+"`"+b+"`"+JSON.stringify(a));e=a[d];return e instanceof p?q(e):encodeURIComponent(String(e))});return w(c)},v=/%{(\w+)}/g,u=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),y=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,z={},w=function(a){var b=k();a=b?b.createScriptURL(a):a;return new r(a,z)},A=function(a,b,c){if(null==c)return b;if("string"===typeof c)return c?a+encodeURIComponent(c):"";for(var e in c)if(Object.prototype.hasOwnProperty.call(c,e)){var d=c[e];d=Array.isArray(d)?d:[d];for(var n=0;n<d.length;n++){var O=d[n];null!=O&&(b||(b=a),b+=(b.length>a.length?"&":"")+encodeURIComponent(e)+"="+encodeURIComponent(String(O)))}}return b};var B={},C=function(a){this.g=a};C.prototype.toString=function(){return this.g.toString()};
+function D(a,b){if(1===a.nodeType){var c=a.tagName;if("SCRIPT"===c||"STYLE"===c)throw Error("g");}a.innerHTML=b instanceof C&&b.constructor===C?b.g:"type_error:SafeHtml"};function E(a){a=null===a?"null":void 0===a?"undefined":a;var b=k();a=b?b.createHTML(a):a;return new C(a,B)};var F=document.querySelector(".l"),G=document.querySelector("#sf"),H=G.querySelector(".sbc"),I=G.querySelector("[type=text]"),J=G.querySelector("[type=submit]"),K=G.querySelector(".sc"),L=G.querySelector(".x"),M=I.value,N=[],P=-1,Q=M,R,S,T;M||(L&&(L.style.display="none"),U(!1));function U(a){if(H.classList.contains("esbc")){var b=H.classList.contains("chsbc"),c=H.classList.contains("rtlsbc");a&&(K.style.display="block",b?(G.style.borderRadius="20px 20px 0 0",K.style.borderBottom="1px solid #DFE1E5",J.style.borderRadius=c?"20px 0 0 0":"0 20px 0 0"):H.style.borderRadius=c?"0 8px 0 0":"8px 0 0 0");a||(K.style.display="none",b?(G.style.borderRadius="20px",K.style.borderBottom="none",J.style.borderRadius=c?"20px 0 0 20px":"0 20px 20px 0"):H.style.borderRadius=c?"0 8px 8px 0":"8px 0 0 8px")}}function V(){G.querySelector("[name=oq]").value=Q;G.querySelector("[name=aqs]").value="heirloom-srp."+(0<=P?P:"")+"."+(0<N.length?"0l"+N.length:"")}
+function W(){R=null;if(S){var a={client:"heirloom-srp",hl:hl,json:"t",callback:"hS",q:S};"undefined"!==typeof ds&&ds&&(a.ds=ds);var b=document;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);b=x();b=y.exec(t(b).toString());var e=b[3]||"";a=w(b[1]+A("?",b[2]||"",a)+A("#",e));c.src=t(a);var d,n;(d=(a=null==(n=(d=(c.ownerDocument&&c.ownerDocument.defaultView||window).document).querySelector)?void 0:n.call(d,"script[nonce]"))?a.nonce||a.getAttribute("nonce")||
+"":"")&&c.setAttribute("nonce",d);document.body.appendChild(c);S=null;R=setTimeout(W,500)}}function X(){for(;K.firstChild;)K.removeChild(K.firstChild);N=[];P=-1;U(!1)}function Y(){var a=K.querySelector(".scs");a&&(a.className="");0<=P?(a=K.childNodes[P],a.className="scs",M=a.textContent):M=Q;I.value=M}I.addEventListener("focus",function(){F&&(F.style.display="none")},!1);I.addEventListener("blur",function(){X();F&&(F.style.display="")},!1);I.addEventListener("keyup",function(a){M=I.value;T=!1;13===a.which?V():27===a.which?(X(),F&&(F.style.display=""),M=Q,I.value=M):40===a.which?(P++,P>=N.length&&(P=-1),Y()):38===a.which?(P--,-1>P&&(P=N.length-1),Y()):(a=M)?(L&&(L.style.display=""),S=a,R||W(),Q=a):(L&&(L.style.display="none"),U(!1),X(),Q="",T=!0)},!1);J.addEventListener("click",V,!1);L.addEventListener("click",function(){I.value="";L.style.display="none";U(!1)},!1);H.addEventListener("click",function(){I.focus()},!1);window.hS=function(a){if(!T){X();0===a[1].length&&U(!1);for(var b=0;b<a[1].length;b++){var c=a[1][b][0],e=document.createElement("div");D(e,E(c));e.addEventListener("mousedown",function(d){d.preventDefault();return!1},!1);c=c.replace(/<\/?b>/g,"");e.addEventListener("click",function(d){return function(){P=d;V();Y();X();G.submit()}}(b),!1);e.addEventListener("mouseover",function(d){return function(){P!==d&&(P=d,Y())}}(b),!1);K.appendChild(e);U(!0);N.push(c)}}};}).call(this);})();(function(){function b(a){for(a=a.target||a.srcElement;a&&"A"!==a.nodeName;)a=a.parentElement;a&&(a.href||"").match(/\/search.*[?&]tbm=isch/)&&(a.href+="&biw="+document.documentElement.clientWidth,a.href+="&bih="+document.documentElement.clientHeight)}document.addEventListener("click",b,!1);document.addEventListener("touchStart",b,!1);}).call(this);</script>
+
+
+
+
+
+
+
+tag:  2  cctlcm 5 cctlcm
+
+
+
+
+
+
+tagger 19  in tag 3
+
+
+
+
+tagger 20  in tag 3 c
+
+
+tagger 21  in tag 3 c
+
+
+
+tagger 22  in tag 3 t
+
+
+
+
+
+tagger 23  in tag 3 l
+
+
+
+
+tagger 24  in tag 3 c
+
+
+
+
+tagger 25  in tag 3 m
+
+
+
+
+tagger 26  in tag 3
+
+
+
+
+tagger 27  in tag 3 5
+
+
+
+
+tagger 28  in tag 3
+
+
+
+
+tagger 29  in tag 3 c
+
+
+
+
+tagger 30  in tag 3 c
+
+
+
+
+tagger 31  in tag 3 t
+
+
+
+
+tagger 32  in tag 3 l
+
+
+
+
+tagger 33  in tag 3 c
+
+
+
+
+tagger 34  in tag 3 m
+
+
+
+
+tagger 35  in tag 3
+
+
+
+
+tag:  3 <textarea class="csi" name="csi" style="display:none"></textarea>
+
+
+
+
+tag:  4 <script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var e='ty6HZP6BD8Ss5NoP5sigyAg';var sn='web';var timl=false;(function(){function B(a){if(!a||C(a))return 0;if(!a.getBoundingClientRect)return 1;var c=function(b){return b.getBoundingClientRect()};return D(a,c)?0:J(a,c)}function D(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if("hidden"===b.style.overflow||"G-EXPANDABLE-CONTENT"===b.tagName&&"hidden"===getComputedStyle(b).getPropertyValue("overflow"))break a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}
+function C(a){return"none"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&("hidden"===a.visibility||"0px"===a.height&&"0px"===a.width)):!1}
+function J(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var f=b.width;b=b.height;var g=0;if(0>=b&&0>=f)return g;var q=window.innerHeight||document.documentElement.clientHeight;0>c+b?g=2:c>=q&&(g=4);if(0>a+f||a>=(window.innerWidth||document.documentElement.clientWidth))g|=8;g||(g=1,c+b>q&&(g|=4));return g};var K=e,L=sn,M="undefined"===typeof de?!0:!1!==de,N=[];function O(a,c,b){a="/gen_204?atyp=csi&s="+L+"&t="+a+("&lite=1&ei="+K+"&conn="+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c="&rt=";for(var f in b)a+=""+c+f+"."+b[f],c=",";return a}function P(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return a}function Q(a){window.ping?window.ping(a):(new Image).src=a}
+(function(){for(var a=(new Date).getTime()-window.start,c=P(a),b=0,f=0,g=0,q=document.getElementsByTagName("img"),r=M?"&biw="+window.innerWidth+"&bih="+window.innerHeight:"",E=function(){r+="&ima="+g;c.aft=b;Q(O("aft",r,c))},x=0,R=function(h,t,u){var n=h.src;h.onload=function(){u&&n&&n===h.src||(f=(new Date).getTime()-window.start,t&&++x===g&&(b=f,E()),h.onload=null)}},S=0,d=void 0;d=q[S++];){var v=B(d),p=!!(v&1);p&&++g;var l=d.hasAttribute("data-ilite"),w=d.hasAttribute("data-deferred"),F=d.hasAttribute("data-src")||
+d.hasAttribute("data-lzysrc"),y=!w&&!l&&F;N.push([v,w||l,y,!!(google.ldi&&d.id&&google.ldi[d.id])||l&&F]);l=(v=d.complete&&!w&&!(p&&y))&&Number(d.getAttribute("data-iml"))||0;v&&l?(p&&++x,l&&(d=l-window.start,p&&(b=Math.max(b,d)),f=Math.max(f,d))):R(d,p,w||y)}b||(b=a);f||(f=b);x===g&&E();google.rglh&&google.rglh();window.addEventListener("load",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;timl&&(c.iml=f);var h=window.performance&&window.performance.timing;h&&(c.rqst=
+h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var t=h=0,u=0,n=0,G=0,H=0,T=0,k;k=N[T++];){var m=k[0],z=k[1],I=k[2];k=k[3];var U=0==m,V=m&8,A=m&1;m=!A&&m&4;A&&(z&&!k||++u,I&&++H);z&&(A&&k&&++h,m&&!k&&++t);U||V?I||++G:z||++n}r+="&ime="+u+"&imel="+H+("&imex="+n+"&imeh="+G)+("&imea="+h+"&imeb="+t);Q(O("all",r,c))},0)},!1)})();}).call(this);})();</script>
+
+
+
+
+
+tagger 36  in tag 5 (function(){var e='ty6HZP6BD8Ss5NoP5sigyAg';var sn='web';var timl=false;(function(){function B(a){if(!a||C(a))return 0;if(!a.getBoundingClientRect)return 1;var c=function(b){return b.getBoundingClientRect()};return D(a,c)?0:J(a,c)}function D(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if("hidden"===b.style.overflow||"G-EXPANDABLE-CONTENT"===b.tagName&&"hidden"===getComputedStyle(b).getPropertyValue("overflow"))break a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}
+function C(a){return"none"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&("hidden"===a.visibility||"0px"===a.height&&"0px"===a.width)):!1}
+function J(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var f=b.width;b=b.height;var g=0;if(0>=b&&0>=f)return g;var q=window.innerHeight||document.documentElement.clientHeight;0>c+b?g=2:c>=q&&(g=4);if(0>a+f||a>=(window.innerWidth||document.documentElement.clientWidth))g|=8;g||(g=1,c+b>q&&(g|=4));return g};var K=e,L=sn,M="undefined"===typeof de?!0:!1!==de,N=[];function O(a,c,b){a="/gen_204?atyp=csi&s="+L+"&t="+a+("&lite=1&ei="+K+"&conn="+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c="&rt=";for(var f in b)a+=""+c+f+"."+b[f],c=",";return a}function P(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return a}function Q(a){window.ping?window.ping(a):(new Image).src=a}
+(function(){for(var a=(new Date).getTime()-window.start,c=P(a),b=0,f=0,g=0,q=document.getElementsByTagName("img"),r=M?"&biw="+window.innerWidth+"&bih="+window.innerHeight:"",E=function(){r+="&ima="+g;c.aft=b;Q(O("aft",r,c))},x=0,R=function(h,t,u){var n=h.src;h.onload=function(){u&&n&&n===h.src||(f=(new Date).getTime()-window.start,t&&++x===g&&(b=f,E()),h.onload=null)}},S=0,d=void 0;d=q[S++];){var v=B(d),p=!!(v&1);p&&++g;var l=d.hasAttribute("data-ilite"),w=d.hasAttribute("data-deferred"),F=d.hasAttribute("data-src")||
+d.hasAttribute("data-lzysrc"),y=!w&&!l&&F;N.push([v,w||l,y,!!(google.ldi&&d.id&&google.ldi[d.id])||l&&F]);l=(v=d.complete&&!w&&!(p&&y))&&Number(d.getAttribute("data-iml"))||0;v&&l?(p&&++x,l&&(d=l-window.start,p&&(b=Math.max(b,d)),f=Math.max(f,d))):R(d,p,w||y)}b||(b=a);f||(f=b);x===g&&E();google.rglh&&google.rglh();window.addEventListener("load",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;timl&&(c.iml=f);var h=window.performance&&window.performance.timing;h&&(c.rqst=
+h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var t=h=0,u=0,n=0,G=0,H=0,T=0,k;k=N[T++];){var m=k[0],z=k[1],I=k[2];k=k[3];var U=0==m,V=m&8,A=m&1;m=!A&&m&4;A&&(z&&!k||++u,I&&++H);z&&(A&&k&&++h,m&&!k&&++t);U||V?I||++G:z||++n}r+="&ime="+u+"&imel="+H+("&imex="+n+"&imeh="+G)+("&imea="+h+"&imeb="+t);Q(O("all",r,c))},0)},!1)})();}).call(this);})();
+
+
+
+
+
+
+
+tag:  5 <script nonce="Vgq2-tzWo4OE_THNKp1KLA">(function(){var e='ty6HZP6BD8Ss5NoP5sigyAg';(function(){var a=e;2===(window.performance&&window.performance.navigation&&window.performance.navigation.type)&&window.ping("/gen_204?ct=backbutton&ei="+a);}).call(this);})();(function(){var b=[function(){google.tick&&google.tick("load","dcl")}];google.dclc=function(a){b.length?b.push(a):a()};function c(){for(var a=b.shift();a;)a(),a=b.shift()}window.addEventListener?(document.addEventListener("DOMContentLoaded",c,!1),window.addEventListener("load",c,!1)):window.attachEvent&&window.attachEvent("onload",c);}).call(this);(function(){
+var b=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}},e=this||self;var g,h;a:{for(var k=["CLOSURE_FLAGS"],l=e,n=0;n<k.length;n++)if(l=l[k[n]],null==l){h=null;break a}h=l}var p=h&&h[610401301];g=null!=p?p:!1;var q,r=e.navigator;q=r?r.userAgentData||null:null;function t(a){return g?q?q.brands.some(function(c){return(c=c.brand)&&-1!=c.indexOf(a)}):!1:!1}function u(a){var c;a:{if(c=e.navigator)if(c=c.userAgent)break a;c=""}return-1!=c.indexOf(a)};function v(){return g?!!q&&0<q.brands.length:!1}function w(){return u("Safari")&&!(x()||(v()?0:u("Coast"))||(v()?0:u("Opera"))||(v()?0:u("Edge"))||(v()?t("Microsoft Edge"):u("Edg/"))||(v()?t("Opera"):u("OPR"))||u("Firefox")||u("FxiOS")||u("Silk")||u("Android"))}function x(){return v()?t("Chromium"):(u("Chrome")||u("CriOS"))&&!(v()?0:u("Edge"))||u("Silk")}function y(){return u("Android")&&!(x()||u("Firefox")||u("FxiOS")||(v()?0:u("Opera"))||u("Silk"))};var z=v()?!1:u("Trident")||u("MSIE");y();x();w();var A=!z&&!w(),D=function(a){if(/-[a-z]/.test("ved"))return null;if(A&&a.dataset){if(y()&&!("ved"in a.dataset))return null;a=a.dataset.ved;return void 0===a?null:a}return a.getAttribute("data-"+"ved".replace(/([A-Z])/g,"-$1").toLowerCase())};var E=[],F=null;function G(a){a=a.target;var c=performance.now(),f=[],H=f.concat,d=E;if(!(d instanceof Array)){var m="undefined"!=typeof Symbol&&Symbol.iterator&&d[Symbol.iterator];if(m)d=m.call(d);else if("number"==typeof d.length)d={next:b(d)};else throw Error("a`"+String(d));for(var B=[];!(m=d.next()).done;)B.push(m.value);d=B}E=H.call(f,d,[c]);if(a&&a instanceof HTMLElement)if(a===F){if(c=4<=E.length)c=5>(E[E.length-1]-E[E.length-4])/1E3;if(c){c=google.getEI(a);a.hasAttribute("data-ved")?f=a?D(a)||"":"":f=(f=
+a.closest("[data-ved]"))?D(f)||"":"";f=f||"";if(a.hasAttribute("jsname"))a=a.getAttribute("jsname");else{var C;a=null==(C=a.closest("[jsname]"))?void 0:C.getAttribute("jsname")}google.log("rcm","&ei="+c+"&ved="+f+"&jsname="+(a||""))}}else F=a,E=[c]}window.document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",G)});}).call(this);window.jsl=window.jsl||{};window.jsl.dh=function(a,b,f){try{var g=document.getElementById(a);if(g)g.innerHTML=b,f&&f();else{var c={id:a,script:String(!!f),milestone:String(google.jslm||0)};google.jsla&&(c.async=google.jsla);var h=a.indexOf("_"),d=0<h?a.substring(0,h):"",k=document.createElement("div");k.innerHTML=b;var e=k.children[0];if(e&&(c.tag=e.tagName,c["class"]=String(e.className||null),c.name=String(e.getAttribute("jsname")),d)){a=[];var l=document.querySelectorAll('[id^="'+d+'_"]');for(b=0;b<l.length;++b)a.push(l[b].id);c.ids=a.join(",")}google.ml(Error(d?"Missing ID with prefix "+d:"Missing ID"),!1,c)}}catch(m){google.ml(m,!0,{"jsl.dh":!0})}};(function(){var x=false;google.jslm=x?2:1;})();(function(){(function(){google.csct={};google.csct.ps='AOvVaw0LNFn36xJloVz_TcMioHfP\x26ust\x3d1686667319283676';})();})();(function(){(function(){google.csct.rd=true;})();})();(function(){(function(){google.csct.rl=true;})();})();google.drty&&google.drty(undefined,true);</script>
+
+
+
+
+
+
+
+tagger 37  in tag 6 (function(){var e='ty6HZP6BD8Ss5NoP5sigyAg';(function(){var a=e;2===(window.performance&&window.performance.navigation&&window.performance.navigation.type)&&window.ping("/gen_204?ct=backbutton&ei="+a);}).call(this);})();(function(){var b=[function(){google.tick&&google.tick("load","dcl")}];google.dclc=function(a){b.length?b.push(a):a()};function c(){for(var a=b.shift();a;)a(),a=b.shift()}window.addEventListener?(document.addEventListener("DOMContentLoaded",c,!1),window.addEventListener("load",c,!1)):window.attachEvent&&window.attachEvent("onload",c);}).call(this);(function(){
+var b=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}},e=this||self;var g,h;a:{for(var k=["CLOSURE_FLAGS"],l=e,n=0;n<k.length;n++)if(l=l[k[n]],null==l){h=null;break a}h=l}var p=h&&h[610401301];g=null!=p?p:!1;var q,r=e.navigator;q=r?r.userAgentData||null:null;function t(a){return g?q?q.brands.some(function(c){return(c=c.brand)&&-1!=c.indexOf(a)}):!1:!1}function u(a){var c;a:{if(c=e.navigator)if(c=c.userAgent)break a;c=""}return-1!=c.indexOf(a)};function v(){return g?!!q&&0<q.brands.length:!1}function w(){return u("Safari")&&!(x()||(v()?0:u("Coast"))||(v()?0:u("Opera"))||(v()?0:u("Edge"))||(v()?t("Microsoft Edge"):u("Edg/"))||(v()?t("Opera"):u("OPR"))||u("Firefox")||u("FxiOS")||u("Silk")||u("Android"))}function x(){return v()?t("Chromium"):(u("Chrome")||u("CriOS"))&&!(v()?0:u("Edge"))||u("Silk")}function y(){return u("Android")&&!(x()||u("Firefox")||u("FxiOS")||(v()?0:u("Opera"))||u("Silk"))};var z=v()?!1:u("Trident")||u("MSIE");y();x();w();var A=!z&&!w(),D=function(a){if(/-[a-z]/.test("ved"))return null;if(A&&a.dataset){if(y()&&!("ved"in a.dataset))return null;a=a.dataset.ved;return void 0===a?null:a}return a.getAttribute("data-"+"ved".replace(/([A-Z])/g,"-$1").toLowerCase())};var E=[],F=null;function G(a){a=a.target;var c=performance.now(),f=[],H=f.concat,d=E;if(!(d instanceof Array)){var m="undefined"!=typeof Symbol&&Symbol.iterator&&d[Symbol.iterator];if(m)d=m.call(d);else if("number"==typeof d.length)d={next:b(d)};else throw Error("a`"+String(d));for(var B=[];!(m=d.next()).done;)B.push(m.value);d=B}E=H.call(f,d,[c]);if(a&&a instanceof HTMLElement)if(a===F){if(c=4<=E.length)c=5>(E[E.length-1]-E[E.length-4])/1E3;if(c){c=google.getEI(a);a.hasAttribute("data-ved")?f=a?D(a)||"":"":f=(f=
+a.closest("[data-ved]"))?D(f)||"":"";f=f||"";if(a.hasAttribute("jsname"))a=a.getAttribute("jsname");else{var C;a=null==(C=a.closest("[jsname]"))?void 0:C.getAttribute("jsname")}google.log("rcm","&ei="+c+"&ved="+f+"&jsname="+(a||""))}}else F=a,E=[c]}window.document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",G)});}).call(this);window.jsl=window.jsl||{};window.jsl.dh=function(a,b,f){try{var g=document.getElementById(a);if(g)g.innerHTML=b,f&&f();else{var c={id:a,script:String(!!f),milestone:String(google.jslm||0)};google.jsla&&(c.async=google.jsla);var h=a.indexOf("_"),d=0<h?a.substring(0,h):"",k=document.createElement("div");k.innerHTML=b;var e=k.children[0];if(e&&(c.tag=e.tagName,c["class"]=String(e.className||null),c.name=String(e.getAttribute("jsname")),d)){a=[];var l=document.querySelectorAll('[id^="'+d+'_"]');for(b=0;b<l.length;++b)a.push(l[b].id);c.ids=a.join(",")}google.ml(Error(d?"Missing ID with prefix "+d:"Missing ID"),!1,c)}}catch(m){google.ml(m,!0,{"jsl.dh":!0})}};(function(){var x=false;google.jslm=x?2:1;})();(function(){(function(){google.csct={};google.csct.ps='AOvVaw0LNFn36xJloVz_TcMioHfP\x26ust\x3d1686667319283676';})();})();(function(){(function(){google.csct.rd=true;})();})();(function(){(function(){google.csct.rl=true;})();})();google.drty&&google.drty(undefined,true);
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
+schema bad
